@@ -1054,7 +1054,7 @@ async def get_plan_type(scope0, prodSeq: str, sdSeq: str, perfDate: str="", csrf
     try:
         js = await post_api(
             scope0, "/seat/GetRsSeatBaseMap",
-            {"prod_seq": str(prodSeq), "sd_seq": str(sdSeq), "chnl_cd": "WEB", "sale_tycd": "SALE_NORMAL"},
+            {"prodSeq": str(prodSeq), "sdSeq": str(sdSeq)},
             extra_headers=H_SEAT
         )
         pt = (js or {}).get("plan_type") or (js or {}).get("planType") or ""
@@ -4581,15 +4581,20 @@ async def force_snapshot_and_hold(p, sdCode: str, *, quiet=False):
         except Exception as e:
             return {"__error__": str(e)}
 
-    rs_prodChk       = _safe(post_api, "/rs/prodChk",       p, form={}, headers={"Referer": refs["rs"]})
-    rs_chkProdSdSeq  = _safe(post_api, "/rs/chkProdSdSeq",  p, form={}, headers={"Referer": refs["rs"]})
-    rs_informLimit   = _safe(post_api, "/rs/informLimit",   p, form={}, headers={"Referer": refs["rs"]})
-    rs_prodSummary   = _safe(post_api, "/rs/prodSummary",   p, form={}, headers={"Referer": refs["rs"]})
-    rs_blockSummary2 = _safe(post_api, "/rs/blockSummary2", p, form={}, headers={"Referer": refs["rs"]})
+    rs_prodChk       = _safe(post_api, p, "/rs/prodChk",       form={}, extra_headers={"Referer": refs["rs"]})
+    rs_chkProdSdSeq  = _safe(post_api, p, "/rs/chkProdSdSeq",  form={}, extra_headers={"Referer": refs["rs"]})
+    rs_informLimit   = _safe(post_api, p, "/rs/informLimit",   form={}, extra_headers={"Referer": refs["rs"]})
+    rs_prodSummary   = _safe(post_api, p, "/rs/prodSummary",   form={}, extra_headers={"Referer": refs["rs"]})
+    rs_blockSummary2 = _safe(post_api, p, "/rs/blockSummary2", form={}, extra_headers={"Referer": refs["rs"]})
 
-    seat_baseMap     = _safe(post_api, "/seat/GetRsSeatBaseMap",    p, form={}, headers={"Referer": refs["seat"]})
-    seat_statusList  = _safe(post_api, "/seat/GetRsSeatStatusList", p, form={}, headers={"Referer": refs["seat"]})
-    rs_ticketType    = _safe(post_api, "/api/v1/rs/tickettype",     p, form={}, headers={"Referer": refs["rs"]})
+    seat_baseMap     = _safe(post_api, p, "/seat/GetRsSeatBaseMap",
+                            form={"prodSeq": str(prodSeq), "sdSeq": str(sdSeq)},
+                            extra_headers={"Referer": refs["seat"]})
+    seat_statusList  = _safe(post_api, p, "/seat/GetRsSeatStatusList",
+                            form={"prodSeq": str(prodSeq), "sdSeq": str(sdSeq)},
+                            extra_headers={"Referer": refs["seat"]})
+
+    rs_ticketType    = _safe(post_api, p, "/api/v1/rs/tickettype", form={}, extra_headers={"Referer": refs["rs"]})
 
     (
         prodChk, chkProdSdSeq, informLimit, prodSummary, blockSummary2,

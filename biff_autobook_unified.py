@@ -44,11 +44,11 @@ TIMEOUT_MS = int(os.getenv("TIMEOUT_MS", "30000"))
 HOLD_AT_PAYMENT = True  # keep the payment tab open (until user closes the script)
 
 LOGIN_URL = "https://biff.maketicket.co.kr/ko/mypageLogin"
-BOOKING_URL = "https://filmonestop.maketicket.co.kr/ko/booking?sdCode={sd}"
-ONESTOP_RS_URL = "https://filmonestop.maketicket.co.kr/ko/onestop/rs?prodSeq={prod}&sdSeq={sdseq}"
+BOOKING_URL = "https://filmonestop.maketicket.co.kr/booking?sdCode={sd}"  
+ONESTOP_RS_URL = "https://filmonestop.maketicket.co.kr/onestop/rs?prodSeq={prod}&sdSeq={sdseq}"
 ONESTOP_ORIGIN = "https://filmonestop.maketicket.co.kr"
 FILMAPI_BASE = "https://filmapi.maketicket.co.kr/api/v1"
-RS_BASE = "https://filmonestopapi.maketicket.co.kr/api/v1/rs"
+RS_BASE     = "https://filmonestopapi.maketicket.co.kr/api/v1/rs"       
 
 OVR_PROD = os.getenv("PROD_SEQ", "")
 OVR_SDSEQ = os.getenv("SD_SEQ", "")
@@ -98,6 +98,45 @@ class ShowCtx:
     remain_seats: Optional[int] = None
 
 # ================= HELPERS =================
+
+
+from urllib.parse import unquote
+
+async def csrf_from_any(ctx: BrowserContext, page: Page) -> str:
+    # 1) meta / hidden input
+    t = await _csrf_from_meta(page)
+    if t:
+        return t
+    try:
+        loc = page.locator("#sForm input[name='csrfToken'], input#csrfToken, input[name='csrfToken']")
+        if await loc.count():
+            v = await loc.first.input_value()
+            if v:
+                return v
+    except Exception:
+        pass
+    # 2) oneStopFrame 안
+    try:
+        fr = await ensure_booking_iframe(page)
+        if fr:
+            loc = fr.locator("input[name='csrfToken'], #csrfToken")
+            if await loc.count():
+                v = await loc.first.input_value()
+                if v:
+                    return v
+    except Exception:
+        pass
+    # 3) 쿠키의 XSRF-TOKEN (URL-decoded)
+    try:
+        cookies = await ctx.cookies(ONESTOP_ORIGIN)
+        for c in cookies:
+            if c.get("name") in ("XSRF-TOKEN", "CSRF-TOKEN", "X-CSRF-TOKEN"):
+                val = unquote(c.get("value") or "")
+                if val:
+                    return val
+    except Exception:
+        pass
+    return ""
 
 def entry_url_candidates(prod_seq: str, sd_seq: str) -> List[str]:
     """Return likely working entry urls for the current build.
@@ -195,30 +234,116 @@ async def harvest_booking_ctx(page: Page) -> Dict[str, str]:
             await _harvest_from(fr)
     return out
 
-# 아래 코드로 기존 map_sd_from_filmapi 함수 전체를 교체하세요.
-
 async def map_sd_from_filmapi(ctx: BrowserContext, sd: str) -> Dict[str, Any]:
     """
-    현재 작동하는 API에서 모든 영화 정보를 가져온 후,
-    필요한 sdCode에 해당하는 영화 정보만 찾아서 반환합니다.
+    sdCode -> {prodSeq, sdSeq, perfDate, ...}를 예매 페이지에서 '직접' 수확.
+    - /ko 금지: 반드시 /booking?sdCode= 로 진입 (쿼리 유실 감지)
+    - 상단 #sForm, iframe, meta, window 전역(JSON blob)까지 훑기
+    - 쿼리 유실되면 외부 카탈로그 API로 매핑 재시도(헤더 보강)
     """
-    # 2025년 기준 29회 BIFF. 이 숫자는 매년 바뀔 수 있습니다.
-    event_id = 29
-    url = f"https://filmonestopapi.maketicket.co.kr/api/prod/prods/biff/{event_id}/exhs"
+    def _lost_query(u: str) -> bool:
+        try:
+            from urllib.parse import urlparse, parse_qs
+            qs = parse_qs(urlparse(u).query or "")
+            return not (qs.get("sdCode") or qs.get("prodSeq") or qs.get("sdSeq"))
+        except Exception:
+            return True
+
+    page = await ctx.new_page()
+    got: Dict[str, Any] = {}
     try:
-        r = await ctx.request.get(url, timeout=15000)
-        if r.ok:
-            j = await r.json()
-            show_list = j.get("data", {}).get("list", [])
-            for show in show_list:
-                if str(show.get("sdCode")) == sd:
-                    # 기존 코드와 형식을 맞추기 위해 키 이름을 일부 변경
-                    show["perfMainNm"] = show.get("prodNm")
-                    return show # 일치하는 영화 정보를 찾으면 바로 반환
+        url = f"{ONESTOP_ORIGIN}/booking?sdCode={sd}"  # << /ko 금지
+        await page.goto(url, timeout=TIMEOUT_MS)
+        await page.wait_for_load_state("domcontentloaded", timeout=TIMEOUT_MS)
+
+        # 쿼리 유실 감지 (001/002 처럼 유효하지 않으면 종종 /booking으로 날아감)
+        if _lost_query(page.url):
+            print(f"⚠️  [{sd}] sdCode 쿼리가 서버에서 제거됨 → 외부 카탈로그로 매핑 시도")
+
+        # 1) 상단/iframe/hidden input 수확
+        got.update(await harvest_booking_ctx(page))
+        if not got.get("csrfToken"):
+            got["csrfToken"] = await _csrf_from_meta(page)
+
+        # 2) 페이지 정규식 수확 (보강)
+        html = await page.content()
+        for pat, key in [
+            (r'prodSeq["\']?\s*[:=]\s*["\']?(\d+)', "prodSeq"),
+            (r'sdSeq["\']?\s*[:=]\s*["\']?(\d+)',   "sdSeq"),
+            (r'perfDate["\']?\s*[:=]\s*["\']?(\d{8})', "perfDate"),
+            (r'sdCode["\']?\s*[:=]\s*["\']?(\d+)', "sdCode"),
+            (r'perfMainName["\']?\s*[:=]\s*["\']?([^"\']]+)', "perfMainName"),
+            (r'venueNm["\']?\s*[:=]\s*["\']?([^"\']]+)', "venueNm"),
+            (r'hallNm["\']?\s*[:=]\s*["\']?([^"\']]+)', "hallNm"),
+            (r'planTypeCd["\']?\s*[:=]\s*["\']?([A-Z]+)', "planTypeCd"),
+        ]:
+            m = re.search(pat, html)
+            if m and not got.get(key):
+                got[key] = m.group(1)
+
+        # 3) window 전역(JSON blob) 수확
+        with contextlib.suppress(Exception):
+            state = await page.evaluate("() => (window.__INITIAL_STATE__ || window.__NUXT__ || window.__APP_STATE__ || null)")
+            if isinstance(state, dict):
+                def pick(d, k): return d.get(k) if isinstance(d, dict) else None
+                for d in [state, pick(state, "data") or {}, pick(state, "pageProps") or {}]:
+                    for k in ("prodSeq","sdSeq","perfDate","sdCode","perfMainName","venueNm","hallNm","planTypeCd"):
+                        if not got.get(k) and isinstance(d, dict) and d.get(k):
+                            got[k] = str(d.get(k))
+
+        # 최소 필수 체크
+        if str(got.get("prodSeq") or "") and str(got.get("sdSeq") or ""):
+            return got
+
+        # === 외부 카탈로그 매핑(헤더 보강) ===
+        print(f"↪ [{sd}] 카탈로그 API 매핑 시도")
+        headers = {
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "ko,en;q=0.9",
+            "Origin": ONESTOP_ORIGIN,
+            "Referer": f"{ONESTOP_ORIGIN}/booking",
+            "User-Agent": "Mozilla/5.0",
+        }
+        # 후보 엔드포인트들 (운영 배포마다 경로 다를 수 있어 순차 시도)
+        catalog_urls = [
+            # BIFF 회차에 맞게 운영되는 전시(상영) 리스트
+            "https://filmonestopapi.maketicket.co.kr/api/prod/prods/biff/29/exhs",
+            "https://filmonestopapi.maketicket.co.kr/api/v1/prod/prods/biff/29/exhs",
+            # 구형
+            f"{FILMAPI_BASE}/prodList?sdCode={sd}",
+        ]
+        for cu in catalog_urls:
+            try:
+                res = await ctx.request.get(cu, headers=headers, timeout=15000)
+                if not res.ok:
+                    continue
+                j = await res.json()
+                lst = []
+                if isinstance(j, dict):
+                    lst = j.get("data", {}).get("list", []) or j.get("list") or j.get("data") or []
+                elif isinstance(j, list):
+                    lst = j
+                # sdCode 필드가 3자리/정수 등 다양할 수 있음 → 문자열 비교 유연화
+                target = str(sd)
+                def norm(x): return str(x).strip().lstrip("0") or "0"
+                for it in lst:
+                    sc = str(it.get("sdCode") or it.get("sdcode") or it.get("sd") or "")
+                    if sc and (sc == target or norm(sc) == norm(target)):
+                        it["perfMainNm"] = it.get("prodNm") or it.get("perfNm") or it.get("title") or ""
+                        # sdSeq 기본값 보정
+                        if not it.get("sdSeq"):
+                            it["sdSeq"] = it.get("sdseq") or it.get("sessionSeq") or "1"
+                        return it
+            except Exception as e:
+                print(f"[{sd}] 카탈로그 응답 처리 실패: {e}")
     except Exception as e:
-        print(f"[{sd}] 영화 정보를 API에서 가져오는 중 오류 발생: {e}")
-    
-    return {} # 영화 정보를 찾지 못하면 빈 딕셔너리 반환
+        print(f"[{sd}] 페이지 수확 실패: {e}")
+    finally:
+        with contextlib.suppress(Exception):
+            await page.close()
+    return {}
+
+
 
 async def rs_post(ctx: BrowserContext, booking_url: str, csrf: str, path: str, data: Dict[str, Any]) -> Dict[str, Any]:
     headers = {
@@ -510,27 +635,28 @@ async def process_show(ctx: BrowserContext, sd: str) -> None:
     page = await ctx.new_page()
     print(f"\n🎬 [ {sd} ] 진입 준비")
 
-    # Resolve mapping first (don't rely on sdCode route)
-    cand = await map_sd_from_filmapi(ctx, sd)
     top: Dict[str, Any] = {}
-    if cand:
-        top["prodSeq"] = str(cand.get("prodSeq") or cand.get("prodseq") or "")
-        top["sdSeq"] = str(cand.get("sdSeq") or cand.get("sdseq") or "")
-        top["perfMainName"] = cand.get("perfMainNm") or cand.get("perfNm") or ""
-        top["venueNm"] = cand.get("venueNm") or cand.get("venue") or ""
-        top["hallNm"] = cand.get("hallNm") or cand.get("hall") or ""
-        dt = (cand.get("sdDate") or cand.get("perfDate") or "").replace(".", "").replace("-", "")
-        if dt:
-            top["perfDate"] = dt
 
-    # mapping(top) 끝난 직후, sc = ShowCtx(...) 만들기 전에 ↓↓↓
-    if OVR_PROD:
+    # 1) 오버라이드가 있으면 매핑/수확 생략
+    if OVR_PROD and OVR_SDSEQ:
         top["prodSeq"] = OVR_PROD
-    if OVR_SDSEQ:
         top["sdSeq"] = OVR_SDSEQ
-    if OVR_DATE:
-        top["perfDate"] = OVR_DATE
+        if OVR_DATE:
+            top["perfDate"] = OVR_DATE
+    else:
+        # 2) sdCode 기반 매핑/수확
+        cand = await map_sd_from_filmapi(ctx, sd)
+        if cand:
+            top["prodSeq"] = str(cand.get("prodSeq") or cand.get("prodseq") or "")
+            top["sdSeq"] = str(cand.get("sdSeq") or cand.get("sdseq") or "")
+            top["perfMainName"] = cand.get("perfMainNm") or cand.get("perfNm") or ""
+            top["venueNm"] = cand.get("venueNm") or cand.get("venue") or ""
+            top["hallNm"] = cand.get("hallNm") or cand.get("hall") or ""
+            dt = (cand.get("sdDate") or cand.get("perfDate") or "").replace(".", "").replace("-", "")
+            if dt:
+                top["perfDate"] = dt
 
+    # 3) 컨텍스트 구성
     sc = ShowCtx(
         sdCode=sd,
         prodSeq=str(top.get("prodSeq") or ""),
@@ -543,19 +669,23 @@ async def process_show(ctx: BrowserContext, sd: str) -> None:
         planTypeCd=top.get("planTypeCd") or "",
     )
 
-    # Try multiple entry urls (favor /booking?prodSeq=...)
-    urls = [u.format(sd=sd) for u in entry_url_candidates(sc.prodSeq, sc.sdSeq)]
+    # 4) 엔트리 URL 시도 (prod/sdSeq 우선)
+    urls: List[str] = []
+    if sc.prodSeq and sc.sdSeq:
+        urls.append(f"{ONESTOP_ORIGIN}/booking?prodSeq={sc.prodSeq}&sdSeq={sc.sdSeq}")
+    urls.extend([u.format(sd=sd) for u in entry_url_candidates(sc.prodSeq, sc.sdSeq)])
+
     frame = None
     booking_url = None
     for u in urls:
         try:
             await page.goto(u, timeout=TIMEOUT_MS)
             await page.wait_for_load_state("domcontentloaded", timeout=TIMEOUT_MS)
-            # consider loaded if frame exists or price UI text appears
             frame = await ensure_booking_iframe(page)
             price_ui = (await page.locator("text=가격선택").count()) > 0
-            if frame or price_ui:
-                booking_url = page.url
+            # 쿼리가 날아가도 referer 확보만 되면 충분
+            if frame or price_ui or True:
+                booking_url = page.url or f"{ONESTOP_ORIGIN}/booking"
                 break
         except Exception:
             continue
@@ -563,18 +693,26 @@ async def process_show(ctx: BrowserContext, sd: str) -> None:
     if not booking_url:
         fallback = BOOKING_URL.format(sd=sd)
         print(f"   ↪ fallback 진입: {fallback}")
-        try:
+        with contextlib.suppress(Exception):
             await page.goto(fallback, timeout=TIMEOUT_MS)
-        except Exception:
-            # 최후의 참조자(Referer) 채우기
-            await page.goto(f"{ONESTOP_ORIGIN}/booking", timeout=TIMEOUT_MS)
+            await page.wait_for_load_state("domcontentloaded", timeout=TIMEOUT_MS)
         frame = await ensure_booking_iframe(page)
         booking_url = page.url or f"{ONESTOP_ORIGIN}/booking"
 
-    # CSRF and context
-    sc.csrfToken = await _csrf_from_meta(page)
-    if not sc.prodSeq or not sc.sdSeq:
-        # Try harvest from page or iframe
+    # 5) onestop/rs 워밍업 → 다시 booking(레퍼러 확보)
+    if sc.prodSeq and sc.sdSeq:
+        with contextlib.suppress(Exception):
+            warm_url = ONESTOP_RS_URL.format(prod=sc.prodSeq, sdseq=sc.sdSeq)
+            await page.goto(warm_url, timeout=TIMEOUT_MS)
+            await page.wait_for_load_state("domcontentloaded", timeout=TIMEOUT_MS)
+            await page.goto(f"{ONESTOP_ORIGIN}/booking?prodSeq={sc.prodSeq}&sdSeq={sc.sdSeq}", timeout=TIMEOUT_MS)
+            await page.wait_for_load_state("domcontentloaded", timeout=TIMEOUT_MS)
+
+    # 6) CSRF 토큰 확보 (메타/hidden/iframe/쿠키 모두 시도)
+    sc.csrfToken = await csrf_from_any(ctx, page)
+
+    # 보조 수확으로 누락된 값 보강
+    if not sc.prodSeq or not sc.sdSeq or not sc.perfDate:
         got = await harvest_booking_ctx(page)
         sc.prodSeq = sc.prodSeq or str(got.get("prodSeq") or "")
         sc.sdSeq = sc.sdSeq or str(got.get("sdSeq") or "")
@@ -584,11 +722,14 @@ async def process_show(ctx: BrowserContext, sd: str) -> None:
         sc.hall = sc.hall or (got.get("hallNm") or "")
         sc.planTypeCd = sc.planTypeCd or (got.get("planTypeCd") or "")
 
-    # Normalize via prod API
+    # 디버그
+    print(f"DBG RS ctx → prodSeq={sc.prodSeq or '-'}, sdSeq={sc.sdSeq or '-'}, perfDate={sc.perfDate or '-'}, csrf={'Y' if sc.csrfToken else 'N'}")
+
+    # 7) RS: prod → 정보 보강
     j = await rs_post(ctx, booking_url, sc.csrfToken, "prod", {
         "prodSeq": sc.prodSeq, "sdSeq": sc.sdSeq, "chnlCd": "WEB",
         "saleTycd": "SALE_NORMAL", "saleCondNo": "1",
-        "perfDate": sc.perfDate, "lang": LANG,   # ← perfDate 중복 제거
+        "perfDate": sc.perfDate, "lang": LANG,
     })
     if isinstance(j, dict) and "__error__" not in j:
         with contextlib.suppress(Exception):
@@ -599,23 +740,16 @@ async def process_show(ctx: BrowserContext, sd: str) -> None:
             sc.hall = sc.hall or (inf.get("hallNm") or "")
             sc.perfDate = sc.perfDate or (inf.get("sdStartDt") or inf.get("perfDate") or "")
 
-    # Compute counts
+    # 8) 좌석 합계/잔여
     sc.total_seats, sc.remain_seats = await compute_counts(ctx, booking_url, sc)
 
-    # Pretty date
+    # 출력/진행
     pdate = sc.perfDate
     if pdate and len(pdate) >= 8:
         pdate = f"{pdate[:4]}-{pdate[4:6]}-{pdate[6:8]}"
-
-    mode = {
-        "NRS": "자유석",
-        "ALL": "지정석(좌석맵)",
-        "ZONE": "지정석(구역)",
-    }.get(sc.planTypeCd, sc.planTypeCd or "?")
-
+    mode = {"NRS": "자유석", "ALL": "지정석(좌석맵)", "ZONE": "지정석(구역)"}.get(sc.planTypeCd, sc.planTypeCd or "?")
     total = sc.total_seats if sc.total_seats is not None else "?"
     remain = sc.remain_seats if sc.remain_seats is not None else "?"
-
     print(f"ℹ️  [{sd}] {sc.title or '(제목미상)'} | {sc.venue} {sc.hall} | {pdate} | 총={total} 잔여={remain} | 모드={mode}")
 
     if sc.remain_seats is not None and sc.remain_seats <= 0:
@@ -623,7 +757,6 @@ async def process_show(ctx: BrowserContext, sd: str) -> None:
         await page.close()
         return
 
-    # Auto-pick: allow both iframe and top-level
     container = frame or page
     plan_guess = sc.planTypeCd or ("NRS" if (await page.locator("text=가격선택").count()) else "ALL")
     ok = await pick_and_proceed_ui(container, plan_guess, page)
@@ -636,6 +769,7 @@ async def process_show(ctx: BrowserContext, sd: str) -> None:
         print("[HOLD] 결제창/예약 과정을 확인한 뒤 창을 닫으세요. (Ctrl+C로 종료)")
     else:
         await page.close()
+
 
 async def launch_browser(pw, headless: bool) -> Browser:
     """Robust Chrome launcher that handles Chrome's new headless mode.
@@ -660,7 +794,9 @@ async def launch_browser(pw, headless: bool) -> Browser:
             raise e2
 
 async def main() -> None:
-    # Parse CLI args (simple)
+    # ▼ 추가: 전역 오버라이드 변수 사용을 명시
+    global OVR_PROD, OVR_SDSEQ, OVR_DATE
+
     sds: List[str] = []
     headless = HEADLESS
     argv = sys.argv[1:]
@@ -675,7 +811,7 @@ async def main() -> None:
             headless = bool(int(argv[i + 1]))
             i += 2
             continue
-        i += 1
+        # ▼ 중요: i += 1 전에 오버라이드 3종을 처리해야 함
         if a == "--prodSeq" and i + 1 < len(argv):
             OVR_PROD = argv[i + 1]
             i += 2
@@ -688,13 +824,19 @@ async def main() -> None:
             OVR_DATE = argv[i + 1]
             i += 2
             continue
+        # ▼ 아무 인자에도 해당 안 될 때만 1칸 전진
+        i += 1
+
     if not sds:
         sds = SD_CODES[:]
+
+    # (선택) 디버그 출력: 오버라이드가 실제 반영됐는지 확인
+    print(f"OVR => prodSeq={OVR_PROD or '-'} sdSeq={OVR_SDSEQ or '-'} perfDate={OVR_DATE or '-'}")
 
     # Launch Chrome
     async with async_playwright() as pw:
         browser: Browser = await launch_browser(pw, headless)
-        ctx: BrowserContext = await browser.new_context()
+        ctx: BrowserContext = await browser.new_context(locale="ko-KR")
         await attach_netlogger(ctx)  # 네트워크 로그 출력 활성화
         ctx.set_default_timeout(TIMEOUT_MS)
 

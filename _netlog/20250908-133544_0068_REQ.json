@@ -1,0 +1,16 @@
+{
+  "url": "https://filmonestopapi.maketicket.co.kr/seat/GetRsSeatStatusList",
+  "headers": {
+    "Accept": "application/json, text/plain, */*",
+    "X-Requested-With": "XMLHttpRequest",
+    "Origin": "https://filmonestop.maketicket.co.kr",
+    "Referer": "https://filmonestop.maketicket.co.kr/ko/onestop/rs/seat?prodSeq=3000000779&sdSeq=2/",
+    "X-CSRF-TOKEN": "J43Ynxs/rKsqQVo2/4ui3L4eRLuWdLMcKJg305856hHT6VZsIPKGcCA6IvRH0CF5:MtNN/4kCeJD1BjlG9CBNTftaLqhNjFa2eD+jATQ06os=",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+  },
+  "form": {},
+  "raw_body": null,
+  "stack": "  File \"C:\\Users\\HYEON\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\base_events.py\", line 1906, in _run_once\n    handle._run()\n  File \"C:\\Users\\HYEON\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\events.py\", line 80, in _run\n    self._context.run(self._callback, *self._args)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 5258, in runner\n    r = await process_one(ctx, code)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 5187, in process_one\n    info = await collect_show_info(scope0 or work, params[\"prodSeq\"], params[\"sdSeq\"], sdCode=sd)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 611, in wrap\n    r = await fn(*a, **k)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 1149, in collect_show_info\n    total, remain, by, plan = await fetch_seat_summary(\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 611, in wrap\n    r = await fn(*a, **k)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 2384, in fetch_seat_summary\n    lst = await _fetch_seat_status_list(\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 611, in wrap\n    r = await fn(*a, **k)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 3275, in _fetch_seat_status_list\n    js = await post_api(pop, \"/seat/GetRsSeatStatusList\", {\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 2971, in post_api\n    return await fetch_json(\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 611, in wrap\n    r = await fn(*a, **k)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 3025, in fetch_json\n    seq = _netlog_req(url, base_hdrs, {} if isinstance(data, str) else {}, body_text)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 1493, in _netlog_req\n    \"stack\": \"\".join(traceback.format_stack(limit=14)),\n",
+  "ts": "20250908-133544",
+  "seq": 68
+}
