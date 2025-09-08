@@ -1,0 +1,25 @@
+2025-09-07 21:27:48,662.662 DEBUG Using proactor: IocpProactor
+2025-09-07 21:27:48,663.663 INFO DEBUG Using proactor: IocpProactor
+2025-09-07 21:27:50,536.536 INFO → 로그인 시도: id=010******61, pw=********
+2025-09-07 21:27:51,582.582 INFO 🔐 [포털(biff)] 로그인 화면입니다. 로그인만 완료하세요…
+2025-09-07 21:27:51,631.631 INFO ✅ [포털(biff)] 로그인 감지.
+2025-09-07 21:27:51,651.651 INFO ✅ 로그인/세션 준비 완료.
+2025-09-07 21:27:52,068.068 INFO 🎬 [001] [개막식 & 개막작] 어쩔수가없다
+2025-09-07 21:27:52,078.078 INFO 🎬 [934] 취생몽사
+2025-09-07 21:27:52,082.082 INFO 🎬 [804] 액터스 하우스: 이병헌
+2025-09-07 21:27:52,088.088 INFO 🎬 [002] 폐막식 + 부산 어워드 수상작 상영
+2025-09-07 21:28:12,692.692 ERROR ❌ [001] 에러: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:28:12,870.870 INFO 🎬 [554] 퐁네프의 연인들
+2025-09-07 21:28:33,384.384 ERROR ❌ [934] 에러: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:29:00,727.727 ERROR Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<Runner.process_sd() running at C:\Users\HYEON\projects\BIFF\bf.py:744> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720, <5 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\HYEON\projects\BIFF\.venv\lib\site-packages\playwright\_impl\_connection.py:228]>
+2025-09-07 21:29:00,729.729 ERROR Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<Runner.process_sd() running at C:\Users\HYEON\projects\BIFF\bf.py:744> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720, <17 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\HYEON\projects\BIFF\.venv\lib\site-packages\playwright\_impl\_connection.py:228]>
+2025-09-07 21:29:00,729.729 ERROR Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<Runner.process_sd() running at C:\Users\HYEON\projects\BIFF\bf.py:744> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py:720, <5 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\HYEON\projects\BIFF\.venv\lib\site-packages\playwright\_impl\_connection.py:228]>

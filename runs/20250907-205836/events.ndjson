@@ -1,0 +1,30 @@
+{"t": "info", "msg": "DEBUG Using proactor: IocpProactor"}
+{"t": "info", "msg": "→ 로그인 시도: id=010******61, pw=********"}
+{"t": "info", "msg": "🔐 [포털(biff)] 로그인 화면입니다. 로그인만 완료하세요…"}
+{"t": "info", "msg": "✅ [포털(biff)] 로그인 감지."}
+{"t": "info", "msg": "✅ 로그인/세션 준비 완료."}
+{"t": "info", "msg": "🎬 [001] [개막식 & 개막작] 어쩔수가없다"}
+{"t": "info", "msg": "🎬 [804] 액터스 하우스: 이병헌"}
+{"t": "info", "msg": "🎬 [002] 폐막식 + 부산 어워드 수상작 상영"}
+{"t": "info", "msg": "🎬 [934] 취생몽사"}
+{"t": "rs_prod_headers", "url": "https://filmonestopapi.maketicket.co.kr/rs/prod", "status": 200, "headers": {"set-cookie": "SCOUTER=z55erhlkom37ou; Expires=Fri, 25 Sep 2093 15:12:48 GMT; Path=/", "x-content-type-options": "nosniff", "x-xss-protection": "1; mode=block", "cache-control": "no-cache, no-store, max-age=0, must-revalidate", "pragma": "no-cache", "expires": "0", "x-frame-options": "DENY", "x-application-context": "tonestop-api:local:9085", "content-length": "0", "date": "Sun, 07 Sep 2025 11:58:40 GMT"}}
+{"t": "rs_prod_headers", "url": "https://filmonestopapi.maketicket.co.kr/rs/prod", "status": 200, "headers": {"x-content-type-options": "nosniff", "x-xss-protection": "1; mode=block", "cache-control": "no-cache, no-store, max-age=0, must-revalidate", "pragma": "no-cache", "expires": "0", "x-frame-options": "DENY", "x-application-context": "tonestop-api:local:9085", "content-length": "0", "date": "Sun, 07 Sep 2025 11:58:41 GMT"}}
+{"t": "info", "msg": "[001] rs_csrf len=0"}
+{"t": "error", "msg": "❌ [001] 에러: missing CSRF after warmup: rs_csrf"}
+{"t": "info", "msg": "[804] rs_csrf len=0"}
+{"t": "error", "msg": "❌ [804] 에러: missing CSRF after warmup: rs_csrf"}
+{"t": "rs_prod_headers", "url": "https://filmonestopapi.maketicket.co.kr/rs/prod", "status": 200, "headers": {"x-content-type-options": "nosniff", "x-xss-protection": "1; mode=block", "cache-control": "no-cache, no-store, max-age=0, must-revalidate", "pragma": "no-cache", "expires": "0", "x-frame-options": "DENY", "x-application-context": "tonestop-api:local:9085", "content-length": "0", "date": "Sun, 07 Sep 2025 11:58:40 GMT"}}
+{"t": "rs_prod_headers", "url": "https://filmonestopapi.maketicket.co.kr/rs/prod", "status": 200, "headers": {"x-content-type-options": "nosniff", "x-xss-protection": "1; mode=block", "cache-control": "no-cache, no-store, max-age=0, must-revalidate", "pragma": "no-cache", "expires": "0", "x-frame-options": "DENY", "x-application-context": "tonestop-api:local:9085", "content-length": "0", "date": "Sun, 07 Sep 2025 11:58:40 GMT"}}
+{"t": "info", "msg": "[002] rs_csrf len=0"}
+{"t": "error", "msg": "❌ [002] 에러: missing CSRF after warmup: rs_csrf"}
+{"t": "info", "msg": "[934] rs_csrf len=0"}
+{"t": "error", "msg": "❌ [934] 에러: missing CSRF after warmup: rs_csrf"}
+{"t": "info", "msg": "🎬 [554] 퐁네프의 연인들"}
+{"t": "rs_prod_headers", "url": "https://filmonestopapi.maketicket.co.kr/rs/prod", "status": 200, "headers": {"x-content-type-options": "nosniff", "x-xss-protection": "1; mode=block", "cache-control": "no-cache, no-store, max-age=0, must-revalidate", "pragma": "no-cache", "expires": "0", "x-frame-options": "DENY", "x-application-context": "tonestop-api:local:9085", "content-length": "0", "date": "Sun, 07 Sep 2025 11:58:41 GMT"}}
+{"t": "info", "msg": "[554] rs_csrf len=0"}
+{"t": "error", "msg": "❌ [554] 에러: missing CSRF after warmup: rs_csrf"}
+{"t": "info", "msg": "\n── 아티팩트 저장 위치 ───────────────────────"}
+{"t": "info", "msg": "  • 로그: C:\\Users\\HYEON\\projects\\BIFF\\runs\\20250907-205836\\bf.log"}
+{"t": "info", "msg": "  • 이벤트(JSONL): C:\\Users\\HYEON\\projects\\BIFF\\runs\\20250907-205836\\events.ndjson"}
+{"t": "info", "msg": "  • HAR: C:\\Users\\HYEON\\projects\\BIFF\\runs\\20250907-205836\\network.har"}
+{"t": "info", "msg": "  • Trace: C:\\Users\\HYEON\\projects\\BIFF\\runs\\20250907-205836\\trace.zip"}

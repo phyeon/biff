@@ -1,0 +1,199 @@
+{"ts": 1757133565.7989614, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133565.8179588, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133565.82896, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133565.8619587, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133565.866957, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133565.8979578, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133568.0449657, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757133568.0449657, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.0679615, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 22}
+{"ts": 1757133568.0679615, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757133568.1059656, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.1629622, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 56}
+{"ts": 1757133568.1629622, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133568.1629622, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.1809626, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 18}
+{"ts": 1757133568.316961, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 153}
+{"ts": 1757133568.316961, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.316961, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.3259633, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133568.3599615, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "Frame.evaluate: Error: HTTP 401 — \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n    \n    \n\n\n    \n    \n\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\t\t\t\tnew Date(\n    at eval (eval at evaluate (:291:30), <anonymous>:15:40)\n    at async <anonymous>:317:30"}
+{"ts": 1757133568.3609622, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.361962, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.368963, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133568.5159616, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 154}
+{"ts": 1757133568.5159616, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 448}
+{"ts": 1757133568.5159616, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757133568.5159616, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.5219617, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133568.5219617, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133568.5219617, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.5299628, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133568.533964, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757133568.533964, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.533964, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.5429633, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133568.575964, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "Frame.evaluate: Error: HTTP 401 — \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n    \n    \n\n\n    \n    \n\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\t\t\t\tnew Date(\n    at eval (eval at evaluate (:291:30), <anonymous>:15:40)\n    at async <anonymous>:317:30"}
+{"ts": 1757133568.5779617, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.5789618, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.585962, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133568.619963, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757133568.619963, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.636963, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 16}
+{"ts": 1757133568.636963, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757133568.638962, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 61}
+{"ts": 1757133568.638962, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.6479628, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133568.6479628, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133568.6479628, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.658966, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757133568.662962, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 14}
+{"ts": 1757133568.662962, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.662962, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.670963, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.6749656, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 12}
+{"ts": 1757133568.7109632, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "Frame.evaluate: Error: HTTP 401 — \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n    \n    \n\n\n    \n    \n\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\t\t\t\tnew Date(\n    at eval (eval at evaluate (:291:30), <anonymous>:15:40)\n    at async <anonymous>:317:30"}
+{"ts": 1757133568.7119625, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.7119625, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.7149634, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 44}
+{"ts": 1757133568.7149634, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133568.7149634, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.722963, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757133568.7859619, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 73}
+{"ts": 1757133568.7859619, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.793962, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133568.793962, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133568.793962, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.799962, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133568.8039632, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757133568.8039632, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.8039632, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.8119626, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133568.8479624, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "Frame.evaluate: Error: HTTP 401 — \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n    \n    \n\n\n    \n    \n\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\t\t\t\tnew Date(\n    at eval (eval at evaluate (:291:30), <anonymous>:15:40)\n    at async <anonymous>:317:30"}
+{"ts": 1757133568.8499622, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.8499622, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.8569617, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133568.8679662, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 153}
+{"ts": 1757133568.8729632, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 157}
+{"ts": 1757133568.8729632, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.8729632, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.8829615, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133568.9159622, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "Frame.evaluate: Error: HTTP 401 — \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n    \n    \n\n\n    \n    \n\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\t\t\t\tnew Date(\n    at eval (eval at evaluate (:291:30), <anonymous>:15:40)\n    at async <anonymous>:317:30"}
+{"ts": 1757133568.9179623, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.9179623, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.9329617, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757133568.9349627, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 85}
+{"ts": 1757133568.9349627, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 419}
+{"ts": 1757133568.9349627, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757133568.9349627, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.943962, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133568.943962, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133568.943962, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.9507983, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133568.9537983, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 9}
+{"ts": 1757133568.9537983, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133568.954799, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133568.9657984, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133568.995798, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757133568.995798, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 358}
+{"ts": 1757133568.995798, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757133568.995798, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.0038037, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133569.0038037, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133569.0038037, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.0127988, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133569.015798, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757133569.015798, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.015798, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.0257988, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133569.028799, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 75}
+{"ts": 1757133569.028799, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.0377996, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133569.0377996, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133569.0377996, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.0447981, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133569.0477977, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 9}
+{"ts": 1757133569.0477977, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.0477977, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.0547981, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133569.0607977, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "Frame.evaluate: Error: HTTP 401 — \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n    \n    \n\n\n    \n    \n\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\t\t\t\tnew Date(\n    at eval (eval at evaluate (:291:30), <anonymous>:15:40)\n    at async <anonymous>:317:30"}
+{"ts": 1757133569.0617988, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.0617988, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.068798, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133569.0817978, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 34}
+{"ts": 1757133569.0817978, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 146}
+{"ts": 1757133569.0817978, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 1036}
+{"ts": 1757133569.0928009, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 3194}
+{"ts": 1757133569.106798, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757133569.1388257, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757133569.1388257, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.145825, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133569.145825, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133569.145825, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.1528244, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133569.1558242, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 9}
+{"ts": 1757133569.1558242, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.1558242, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.163825, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133569.196825, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "Frame.evaluate: Error: HTTP 401 — \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n    \n    \n\n\n    \n    \n\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\t\t\t\tnew Date(\n    at eval (eval at evaluate (:291:30), <anonymous>:15:40)\n    at async <anonymous>:317:30"}
+{"ts": 1757133569.1988251, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.1988251, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.2068255, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133569.2718246, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757133569.2718246, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.2788265, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133569.279824, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133569.279824, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.287825, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133569.2918243, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757133569.2918243, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.2918243, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.2988255, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133569.3318245, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "Frame.evaluate: Error: HTTP 401 — \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n    \n    \n\n\n    \n    \n\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\t\t\t\tnew Date(\n    at eval (eval at evaluate (:291:30), <anonymous>:15:40)\n    at async <anonymous>:317:30"}
+{"ts": 1757133569.333825, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.333825, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.3428283, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133569.4098246, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 75}
+{"ts": 1757133569.4098246, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 414}
+{"ts": 1757133569.4098246, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757133569.4098246, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.417824, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133569.417824, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133569.417824, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.4258263, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133569.429825, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757133569.429825, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.429825, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.4388282, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133569.465825, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 36}
+{"ts": 1757133569.465825, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.4728255, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133569.4728255, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133569.4728255, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.4818256, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133569.4838245, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757133569.4838245, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133569.4838245, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133569.4918277, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133569.5178251, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 34}
+{"ts": 1757133569.5178251, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 108}
+{"ts": 1757133569.5178251, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 897}
+{"ts": 1757133569.5278244, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 3665}
+{"ts": 1757133569.542826, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757133572.831212, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757133572.8472095, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757133572.8532095, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757133572.8532095, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757133573.172211, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757133568103&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2092241841.1757133560&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105424848~115480709&sid=1757133559&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5135", "body": ""}
+{"ts": 1757133573.2642105, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757133568103&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2092241841.1757133560&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105424848~115480709&sid=1757133559&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5135"}
+{"ts": 1757133573.2642105, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757133568103&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2092241841.1757133560&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105424848~115480709&sid=1757133559&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5135", "failure": "net::ERR_ABORTED"}
+{"ts": 1757133574.1197698, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5012}
+{"ts": 1757133574.1327696, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757133574.1327696, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133574.1387694, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "Frame.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757133574.1387694, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "Frame.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757133574.555346, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5012}
+{"ts": 1757133574.5673454, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757133574.5673454, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133574.5733464, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "Frame.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757133574.5733464, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "Frame.wait_for_timeout: Target page, context or browser has been closed"}

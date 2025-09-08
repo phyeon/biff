@@ -1,0 +1,791 @@
+{"ts": 1757143097.9357204, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757143097.959239, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757143097.9692378, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757143097.9762383, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757143097.9842386, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757143097.9942412, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757143099.8409083, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757143099.8409083, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143099.8479064, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143099.8479064, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757143099.8799057, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143099.9039068, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 24}
+{"ts": 1757143099.9039068, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143099.9039068, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143099.971906, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 67}
+{"ts": 1757143099.987907, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 84}
+{"ts": 1757143099.987907, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.1169071, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 129}
+{"ts": 1757143100.1169071, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 269}
+{"ts": 1757143100.1169071, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143100.1909094, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757143100.1909094, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.2039065, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 12}
+{"ts": 1757143100.2039065, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757143100.26742, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 150}
+{"ts": 1757143100.26742, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757143100.27742, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.2924218, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757143100.2924218, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.2924218, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.30242, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143100.30542, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757143100.30542, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.3554194, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757143100.3554194, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.364419, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143100.364419, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.364419, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.3714197, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143100.3754199, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143100.3754199, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.4234195, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 47}
+{"ts": 1757143100.4234195, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.43042, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143100.43042, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.43042, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.4384203, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143100.4434237, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 13}
+{"ts": 1757143100.4434237, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.4944205, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.5034206, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 59}
+{"ts": 1757143100.5034206, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 236}
+{"ts": 1757143100.5034206, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757143100.5034206, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.51142, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 16}
+{"ts": 1757143100.51142, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.51142, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.5134213, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143100.5134213, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.514421, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.521419, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143100.524422, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143100.52642, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757143100.52642, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.53242, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 18}
+{"ts": 1757143100.53242, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.5752325, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 48}
+{"ts": 1757143100.5752325, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 371}
+{"ts": 1757143100.575419, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143100.5954204, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 63}
+{"ts": 1757143100.5954204, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.637422, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 42}
+{"ts": 1757143100.637422, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.637422, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.6494195, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143100.65342, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757143100.65342, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.687419, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 33}
+{"ts": 1757143100.687419, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 183}
+{"ts": 1757143100.687419, "lvl": "INFO", "ev": "step.begin", "name": "seat_summary_zone_only"}
+{"ts": 1757143100.687419, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.6904197, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 115}
+{"ts": 1757143100.6914244, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757143100.7024198, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.704419, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 16}
+{"ts": 1757143100.704419, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.704419, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.7134204, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143100.7134204, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.7134204, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.7164202, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 12}
+{"ts": 1757143100.721421, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 17}
+{"ts": 1757143100.721421, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.72342, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143100.7284203, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 14}
+{"ts": 1757143100.7284203, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.7674212, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 39}
+{"ts": 1757143100.7674212, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.7784226, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757143100.7784226, "lvl": "INFO", "ev": "step.end", "name": "seat_summary_zone_only", "ms": 91}
+{"ts": 1757143100.7784226, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 937}
+{"ts": 1757143100.7894192, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2805}
+{"ts": 1757143100.8024192, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 34}
+{"ts": 1757143100.8034198, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.8034198, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.805419, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757143100.8124218, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143100.81542, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757143100.81542, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.8554187, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 39}
+{"ts": 1757143100.8554187, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.8634193, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143100.8634193, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.8634193, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.87342, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143100.878421, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757143100.878421, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.9174194, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 38}
+{"ts": 1757143100.9174194, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 225}
+{"ts": 1757143100.9174194, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757143100.9174194, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.9254215, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143100.9264207, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.9264207, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.93442, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143100.9384243, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757143100.9384243, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143100.9714196, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 32}
+{"ts": 1757143100.9714196, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.9834208, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 12}
+{"ts": 1757143100.9834208, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143100.9834208, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143100.9944217, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143101.0004206, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 16}
+{"ts": 1757143101.0004206, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143101.0424256, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757143101.0424256, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 125}
+{"ts": 1757143101.0424256, "lvl": "INFO", "ev": "step.begin", "name": "seat_summary_zone_only"}
+{"ts": 1757143101.0434213, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143101.05142, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143101.05142, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143101.05142, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143101.0614195, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143101.0644193, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757143101.0654194, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143101.1054199, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 40}
+{"ts": 1757143101.1054199, "lvl": "INFO", "ev": "step.end", "name": "seat_summary_zone_only", "ms": 62}
+{"ts": 1757143101.1054199, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 914}
+{"ts": 1757143101.1164217, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 3147}
+{"ts": 1757143101.1314194, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757143104.975614, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757143099900&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5142", "body": ""}
+{"ts": 1757143105.046614, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757143099900&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5142"}
+{"ts": 1757143105.046614, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757143099900&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5142", "failure": "net::ERR_ABORTED"}
+{"ts": 1757143105.485615, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757143100249&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5306", "body": ""}
+{"ts": 1757143105.5606155, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757143100249&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5306"}
+{"ts": 1757143105.5606155, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757143100249&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5306", "failure": "net::ERR_ABORTED"}
+{"ts": 1757143105.804614, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 4999}
+{"ts": 1757143105.847615, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143105.8536143, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 5}
+{"ts": 1757143105.864618, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143105.8716187, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143105.8716187, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143105.8716187, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143105.879136, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143105.8831363, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143105.8831363, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143105.9301424, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 47}
+{"ts": 1757143105.9301424, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143105.9371424, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143105.9371424, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143105.9381416, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143105.9441419, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143105.9481418, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757143105.9481418, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143105.9873655, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143106646,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodChk\"}"}
+{"ts": 1757143105.9873655, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143105.9953678, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143105.9953678, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143105.9953678, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.0043657, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143106.0073652, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143106.0073652, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.0503657, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143106709,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/chkProdSdSeq\"}"}
+{"ts": 1757143106.0503657, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.057877, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143106.057877, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.057877, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.0658762, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143106.068877, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757143106.068877, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.1058774, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143106766,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/informLimit\"}"}
+{"ts": 1757143106.1058774, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.1138775, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143106.1138775, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.1138775, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.1203973, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143106.1243873, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757143106.1243873, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.1293893, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 4997}
+{"ts": 1757143106.1723893, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143106826,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodSummary\"}"}
+{"ts": 1757143106.1723893, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.1813886, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143106.1813886, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.1813886, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.1873875, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.1883876, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143106.193388, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143106.193388, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.1953907, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143106.2123914, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.2183876, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 5}
+{"ts": 1757143106.2183876, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.2183876, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.2253864, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143106.2293894, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143106.2293894, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.23839, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143106895,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/blockSummary2\"}"}
+{"ts": 1757143106.2393885, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143106.339388, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757143106.339388, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.3483884, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143106.3483884, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.3483884, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.3603892, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 12}
+{"ts": 1757143106.3803878, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 140}
+{"ts": 1757143106.3813875, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757143106.3843896, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 36}
+{"ts": 1757143106.3843896, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.3863869, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.3973882, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143106.3973882, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.3973882, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.4113882, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757143106.418388, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 20}
+{"ts": 1757143106.418388, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.4333878, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143107090,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodChk\"}"}
+{"ts": 1757143106.4333878, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.4403872, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143106.4403872, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.4403872, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.4483871, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143106.4513874, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143106.4513874, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.4723885, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757143106.4723885, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.4813874, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143106.4813874, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.4813874, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.490387, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143106.4963882, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757143106.4963882, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.5073915, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143107156,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/chkProdSdSeq\"}"}
+{"ts": 1757143106.5073915, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.5153883, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143106.5153883, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.5153883, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.5253885, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143106.5293915, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 14}
+{"ts": 1757143106.5293915, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.5413888, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757143106.5413888, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.5553877, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757143106.5553877, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.5553877, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.5653882, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143106.570388, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757143106.570388, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.5823877, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143107239,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/informLimit\"}"}
+{"ts": 1757143106.5823877, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.5893874, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143106.5893874, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.5893874, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.5983887, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143106.6023874, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 13}
+{"ts": 1757143106.6023874, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.641388, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 70}
+{"ts": 1757143106.641388, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 260}
+{"ts": 1757143106.641388, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_summary"}
+{"ts": 1757143106.641388, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143106.646389, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143107301,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodSummary\"}"}
+{"ts": 1757143106.646389, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.6863894, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 40}
+{"ts": 1757143106.6873887, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.6873887, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.693387, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 5}
+{"ts": 1757143106.7003872, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757143106.7003872, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.740389, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143107400,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/blockSummary2\"}"}
+{"ts": 1757143106.7413886, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143106.8063881, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 165}
+{"ts": 1757143106.8943894, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 153}
+{"ts": 1757143106.8943894, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757143106.9063885, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.9203894, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143106.9203894, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.9203894, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.9283876, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.9323885, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143106.9373875, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 16}
+{"ts": 1757143106.9373875, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.944387, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757143106.944387, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.944387, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.9523878, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143106.9553869, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757143106.9553869, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143106.9793901, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757143106.9793901, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143106.9883885, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143106.9883885, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143106.9883885, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.0043876, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757143107.006388, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757143107.006388, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.0083873, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 19}
+{"ts": 1757143107.0083873, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.019388, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757143107.019388, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.019388, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.026388, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143107.032389, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 13}
+{"ts": 1757143107.032389, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.055388, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 47}
+{"ts": 1757143107.055388, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.07039, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757143107.07039, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.07039, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.0733883, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 40}
+{"ts": 1757143107.0733883, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.0803914, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143107.0819228, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143107.0819228, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.0819228, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.084914, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 14}
+{"ts": 1757143107.084914, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.0939126, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143107.0969188, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 14}
+{"ts": 1757143107.0969188, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.1439154, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 46}
+{"ts": 1757143107.1439154, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.1549132, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 69}
+{"ts": 1757143107.1549132, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 260}
+{"ts": 1757143107.1549132, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_summary"}
+{"ts": 1757143107.1549132, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143107.1569142, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 12}
+{"ts": 1757143107.1579123, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.1579123, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.227914, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 70}
+{"ts": 1757143107.2319183, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 74}
+{"ts": 1757143107.2329152, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.2939155, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 61}
+{"ts": 1757143107.2939155, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.3099132, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 154}
+{"ts": 1757143107.322435, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 28}
+{"ts": 1757143107.322435, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.322435, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.3384337, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757143107.3444347, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 21}
+{"ts": 1757143107.3444347, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.3924341, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.4074333, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143107.4074333, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.4074333, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.4194348, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 75}
+{"ts": 1757143107.4194348, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.4214325, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757143107.4274368, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 20}
+{"ts": 1757143107.4274368, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.4344337, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143107.4354346, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.4354346, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.4444325, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143107.451433, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757143107.451433, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.4774323, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757143107.4774323, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.4864335, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143107.4864335, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.4864335, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.5014334, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143107.5034332, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 52}
+{"ts": 1757143107.5034332, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757143107.5034332, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.506433, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 19}
+{"ts": 1757143107.506433, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.518434, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757143107.518434, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.518434, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.528432, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143107.5324335, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 13}
+{"ts": 1757143107.5324335, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.5474346, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757143107.5484338, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.556434, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143107.556434, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.556434, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.5704343, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143107.5724351, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 40}
+{"ts": 1757143107.5724351, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.5754323, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 18}
+{"ts": 1757143107.5754323, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.5864327, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757143107.5864327, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.5864327, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.5974352, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143107.601433, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757143107.601433, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.6174324, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757143107.6174324, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.6274319, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143107.6274319, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.6274319, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.6384332, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 37}
+{"ts": 1757143107.6384332, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 134}
+{"ts": 1757143107.6384332, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.6424325, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757143107.6474338, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 20}
+{"ts": 1757143107.6474338, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.6534326, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143107.6534326, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.6534326, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.6614323, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143107.6654365, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757143107.6654365, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.7034314, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 55}
+{"ts": 1757143107.7034314, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.7054334, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 39}
+{"ts": 1757143107.7054334, "lvl": "INFO", "ev": "step.begin", "name": "seat_summary_zone_only"}
+{"ts": 1757143107.7054334, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.712432, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143107.713435, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.713435, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.7154334, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143107.7164342, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.7164342, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.7234344, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143107.725435, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143107.727434, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 13}
+{"ts": 1757143107.728432, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.7354345, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 19}
+{"ts": 1757143107.7354345, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.7794318, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757143107.7804346, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.7904325, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757143107.7904325, "lvl": "INFO", "ev": "step.end", "name": "seat_summary_zone_only", "ms": 84}
+{"ts": 1757143107.7904325, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.7944355, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143107.7944355, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.7944355, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.8034334, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757143107.8034334, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.8034334, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.806433, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143107.8124335, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 17}
+{"ts": 1757143107.8124335, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.8194337, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 16}
+{"ts": 1757143107.8234336, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 20}
+{"ts": 1757143107.8234336, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.855436, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757143107.855436, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757143107.855436, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.870433, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143107.870433, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.870433, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.8734334, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757143107.8734334, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.8804343, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143107.8834314, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143107.8834314, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.8834314, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.8854325, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 14}
+{"ts": 1757143107.8854325, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.8964329, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757143107.902432, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 19}
+{"ts": 1757143107.902432, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.920434, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 35}
+{"ts": 1757143107.921433, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.9294326, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143107.9294326, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.9294326, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.940435, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143107.9464326, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 16}
+{"ts": 1757143107.9464326, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143107.9604318, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757143107.9604318, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_summary", "ms": 1319}
+{"ts": 1757143107.9844325, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 37}
+{"ts": 1757143107.9844325, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 128}
+{"ts": 1757143107.9844325, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143107.991433, "lvl": "INFO", "ev": "step.begin", "name": "step_to_payment"}
+{"ts": 1757143107.9944348, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143107.9944348, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143107.9944348, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143108.0104332, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757143108.0174327, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 22}
+{"ts": 1757143108.0174327, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143108.0764327, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 59}
+{"ts": 1757143108.0764327, "lvl": "INFO", "ev": "step.begin", "name": "seat_summary_zone_only"}
+{"ts": 1757143108.0764327, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143108.1054313, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 28}
+{"ts": 1757143108.1054313, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143108.1054313, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143108.128435, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 23}
+{"ts": 1757143108.1414347, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 36}
+{"ts": 1757143108.1414347, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143108.202432, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757143108.202432, "lvl": "INFO", "ev": "step.end", "name": "seat_summary_zone_only", "ms": 125}
+{"ts": 1757143108.202432, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143108.2114322, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143108.2114322, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143108.2114322, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143108.2204323, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143108.2234318, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143108.2234318, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143108.2914312, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 67}
+{"ts": 1757143108.2914312, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143108.3054357, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 14}
+{"ts": 1757143108.3054357, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143108.3054357, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143108.3619528, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 56}
+{"ts": 1757143108.3829558, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 77}
+{"ts": 1757143108.3829558, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143108.4529557, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 69}
+{"ts": 1757143108.4529557, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_summary", "ms": 1298}
+{"ts": 1757143108.5049534, "lvl": "INFO", "ev": "step.begin", "name": "step_to_payment"}
+{"ts": 1757143128.4274716, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 30468}
+{"ts": 1757143129.1184704, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31124}
+{"ts": 1757143129.1474695, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31211}
+{"ts": 1757143129.81113, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31834}
+{"ts": 1757143134.1468236, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757143134.2908218, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757143134.9853785, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757143135.4863706, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143130378&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~105330666~105426766~105426768~115480709&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5144", "body": ""}
+{"ts": 1757143135.5554063, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143130378&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~105330666~105426766~105426768~115480709&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5144"}
+{"ts": 1757143135.5554063, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143130378&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~105330666~105426766~105426768~115480709&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5144", "failure": "net::ERR_ABORTED"}
+{"ts": 1757143136.791403, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143131698&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105330666~105426766~105426768~115489982&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5129", "body": ""}
+{"ts": 1757143136.8594017, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143131698&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105330666~105426766~105426768~115489982&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5129"}
+{"ts": 1757143136.8594017, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143131698&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105330666~105426766~105426768~115489982&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5129", "failure": "net::ERR_ABORTED"}
+{"ts": 1757143137.4664037, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143132377&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5123", "body": ""}
+{"ts": 1757143137.5384033, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143132377&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5123"}
+{"ts": 1757143137.5384033, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757143132377&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=125162869.1757143093&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~105330666~105426766~105426768&sid=1757143093&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5123", "failure": "net::ERR_ABORTED"}
+{"ts": 1757143139.1520956, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5005}
+{"ts": 1757143139.1907303, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.2327297, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 41}
+{"ts": 1757143139.242729, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.2477286, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 4}
+{"ts": 1757143139.248729, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.248729, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.2557294, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.2587287, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 9}
+{"ts": 1757143139.2587287, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.2657304, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 4974}
+{"ts": 1757143139.3057318, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.3157294, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757143139.3157294, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.3227282, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143139.3227282, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.3227282, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.3297298, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.3337293, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143139.3337293, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.3607285, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 54}
+{"ts": 1757143139.3707287, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.375744, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140034,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodChk\"}"}
+{"ts": 1757143139.375744, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.3807297, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757143139.3807297, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.3817284, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.383728, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.383728, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.383728, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.3897305, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143139.3927286, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143139.3947282, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 13}
+{"ts": 1757143139.3947282, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.396729, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 13}
+{"ts": 1757143139.396729, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.4477286, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 53}
+{"ts": 1757143139.4487288, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.45273, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140108,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/chkProdSdSeq\"}"}
+{"ts": 1757143139.4537303, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.4597292, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143139.4597292, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.4597292, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.4617286, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.4617286, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.4617286, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.4677286, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.4697285, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.4717288, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143139.4717288, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.4737308, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757143139.4737308, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.5137286, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140174,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodChk\"}"}
+{"ts": 1757143139.5137286, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.5217285, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140177,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/informLimit\"}"}
+{"ts": 1757143139.5217285, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.52473, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143139.52473, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.52473, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.5307288, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143139.5307288, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.5307288, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.5327275, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.5367286, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143139.5367286, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.5387285, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.5427291, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 12}
+{"ts": 1757143139.5427291, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.5767288, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140236,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/chkProdSdSeq\"}"}
+{"ts": 1757143139.5767288, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.5837276, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143139.5837276, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.5837276, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.5877287, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140247,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodSummary\"}"}
+{"ts": 1757143139.5877287, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.59473, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757143139.59573, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143139.59573, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.59573, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.5987287, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757143139.5987287, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.6037283, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.6077294, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757143139.6077294, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.640732, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140301,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/informLimit\"}"}
+{"ts": 1757143139.640732, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.6487284, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140308,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/blockSummary2\"}"}
+{"ts": 1757143139.6487284, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143139.6507275, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757143139.6507275, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.6507275, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.6957285, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 45}
+{"ts": 1757143139.701729, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 51}
+{"ts": 1757143139.701729, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.747728, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140402,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodSummary\"}"}
+{"ts": 1757143139.7487302, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.7657294, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 117}
+{"ts": 1757143139.7657294, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757143139.7657294, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.7657294, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143139.766729, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.766729, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143139.766729, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143139.768729, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 19}
+{"ts": 1757143139.768729, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143139.768729, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.7757304, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143139.799729, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 31}
+{"ts": 1757143139.799729, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143139.842704, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140501,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/blockSummary2\"}"}
+{"ts": 1757143139.843278, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143139.9477873, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 104}
+{"ts": 1757143139.9477873, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757143139.9477873, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.9477873, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143139.9477873, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143139.9477873, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143139.9477873, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143140.0097885, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5024}
+{"ts": 1757143140.050788, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.0847871, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 33}
+{"ts": 1757143140.094788, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.1027868, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143140.1027868, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143140.1027868, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.1103053, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143140.1133337, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757143140.1133337, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143140.1663344, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 53}
+{"ts": 1757143140.1663344, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.1723344, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143140.1723344, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143140.1723344, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.179334, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143140.1823335, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 9}
+{"ts": 1757143140.1823335, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143140.218869, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140879,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodChk\"}"}
+{"ts": 1757143140.218869, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.226871, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757143140.226871, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143140.226871, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.23287, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 5}
+{"ts": 1757143140.2358696, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 8}
+{"ts": 1757143140.2358696, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143140.275897, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140935,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/chkProdSdSeq\"}"}
+{"ts": 1757143140.275897, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.2818978, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143140.2818978, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143140.2818978, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.2878978, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143140.2898974, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 7}
+{"ts": 1757143140.290898, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143140.3398979, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143140999,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/informLimit\"}"}
+{"ts": 1757143140.340899, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.3478978, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143140.3478978, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143140.3478978, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.3548975, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143140.3578985, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757143140.3578985, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143140.4048982, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143141059,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/prodSummary\"}"}
+{"ts": 1757143140.4058983, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.4138982, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757143140.4138982, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757143140.4138982, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.4208975, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757143140.4239006, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757143140.4239006, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143140.4628994, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143141121,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"java.lang.NullPointerException\",\"message\":\"No message available\",\"path\":\"/api/v1/rs/blockSummary2\"}"}
+{"ts": 1757143140.4638987, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757143140.6054168, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 141}
+{"ts": 1757143140.6054168, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757143140.6054168, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.6054168, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143140.6054168, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757143140.6054168, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143140.6054168, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757143153.197217, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757143153.2412164, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 43}
+{"ts": 1757143153.2412164, "lvl": "INFO", "ev": "step.begin", "name": "pick_seat_via_api"}
+{"ts": 1757143153.2412164, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.2842174, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757143153.2852163, "lvl": "INFO", "ev": "step.end", "name": "pick_seat_via_api", "ms": 43}
+{"ts": 1757143153.2852163, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.3272183, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757143153.3282177, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.374215, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757143153.374215, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.4162164, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143154077,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"kr.co.smartix.onestop.exception.RsException\",\"message\":\"Exception\",\"path\":\"/api/v1/rs/tickettype\"}"}
+{"ts": 1757143153.417216, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.4712162, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757143153.4712162, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.5222182, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143154182,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"kr.co.smartix.onestop.exception.RsException\",\"message\":\"Exception\",\"path\":\"/api/v1/rs/pricelimit\"}"}
+{"ts": 1757143153.5222182, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.558218, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 35}
+{"ts": 1757143153.6642163, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757143153.7337334, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 69}
+{"ts": 1757143153.7337334, "lvl": "INFO", "ev": "step.begin", "name": "pick_seat_via_api"}
+{"ts": 1757143153.7337334, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.7837303, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757143153.7837303, "lvl": "INFO", "ev": "step.end", "name": "pick_seat_via_api", "ms": 49}
+{"ts": 1757143153.7837303, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.8267293, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757143153.8267293, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.8607314, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 34}
+{"ts": 1757143153.8607314, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.9055007, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143154565,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"kr.co.smartix.onestop.exception.RsException\",\"message\":\"Exception\",\"path\":\"/api/v1/rs/tickettype\"}"}
+{"ts": 1757143153.9057589, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143153.9487586, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757143153.9487586, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143154.0147588, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143154675,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"kr.co.smartix.onestop.exception.RsException\",\"message\":\"Exception\",\"path\":\"/api/v1/rs/pricelimit\"}"}
+{"ts": 1757143154.0147588, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143154.0647583, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757143176.162328, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757143176.1813269, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 18}
+{"ts": 1757143176.1813269, "lvl": "INFO", "ev": "step.begin", "name": "pick_seat_via_api"}
+{"ts": 1757143176.1813269, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143176.2303274, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757143176.2303274, "lvl": "INFO", "ev": "step.end", "name": "pick_seat_via_api", "ms": 49}
+{"ts": 1757143176.2303274, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143176.2623281, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 32}
+{"ts": 1757143176.2623281, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143176.3063529, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 44}
+{"ts": 1757143176.3063529, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143176.3523607, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143177011,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"kr.co.smartix.onestop.exception.RsException\",\"message\":\"Exception\",\"path\":\"/api/v1/rs/tickettype\"}"}
+{"ts": 1757143176.3523607, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143176.4063606, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 53}
+{"ts": 1757143176.4063606, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143176.459363, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143177114,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"kr.co.smartix.onestop.exception.RsException\",\"message\":\"Exception\",\"path\":\"/api/v1/rs/pricelimit\"}"}
+{"ts": 1757143176.459363, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143176.5123608, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 52}
+{"ts": 1757143176.5483594, "lvl": "ERR", "ev": "step.error", "name": "step_to_payment", "err": "Page.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757143177.0053682, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757143177.0243673, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 18}
+{"ts": 1757143177.0253677, "lvl": "INFO", "ev": "step.begin", "name": "pick_seat_via_api"}
+{"ts": 1757143177.0253677, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143177.0823693, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757143177.0823693, "lvl": "INFO", "ev": "step.end", "name": "pick_seat_via_api", "ms": 57}
+{"ts": 1757143177.0823693, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143177.1246676, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757143177.1246676, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143177.168562, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757143177.168562, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143177.2085617, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143177868,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"kr.co.smartix.onestop.exception.RsException\",\"message\":\"Exception\",\"path\":\"/api/v1/rs/tickettype\"}"}
+{"ts": 1757143177.2085617, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143177.262564, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757143177.262564, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143177.308087, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 500 — {\"timestamp\":1757143177966,\"status\":500,\"error\":\"Internal Server Error\",\"exception\":\"kr.co.smartix.onestop.exception.RsException\",\"message\":\"Exception\",\"path\":\"/api/v1/rs/pricelimit\"}"}
+{"ts": 1757143177.308087, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757143177.3485632, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 40}
+{"ts": 1757143177.3820765, "lvl": "ERR", "ev": "step.error", "name": "step_to_payment", "err": "Page.wait_for_timeout: Target page, context or browser has been closed"}

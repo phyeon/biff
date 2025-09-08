@@ -1,0 +1,30 @@
+{
+  "request": {
+    "id": "00051",
+    "ts": "2025-09-06T20:13:51.287848",
+    "url": "/seat/GetRsSeatBaseMap",
+    "payload": {
+      "prod_seq": "3000000779",
+      "sd_seq": "2",
+      "chnl_cd": "WEB",
+      "sale_tycd": "SALE_NORMAL"
+    },
+    "headers": {
+      "Referer": "https://biff.maketicket.co.kr/ko/onestop/rs/seat?prodSeq=3000000779&sdSeq=2/",
+      "Origin": "https://biff.maketicket.co.kr"
+    }
+  },
+  "keys": [
+    "_raw"
+  ],
+  "summary": {
+    "admissionTotalPersonCnt": null,
+    "admissionAvailPersonCnt": null,
+    "saleSeatCnt": null,
+    "rendrSeatCnt": null,
+    "restSeatCnt": null
+  },
+  "json": {
+    "_raw": ""
+  }
+}

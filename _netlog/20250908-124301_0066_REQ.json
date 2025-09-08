@@ -1,0 +1,16 @@
+{
+  "url": "https://filmonestopapi.maketicket.co.kr/seat/GetRsSeatBaseMap",
+  "headers": {
+    "Accept": "application/json, text/plain, */*",
+    "X-Requested-With": "XMLHttpRequest",
+    "Origin": "https://filmonestop.maketicket.co.kr",
+    "Referer": "https://filmonestop.maketicket.co.kr/ko/onestop/rs/seat?prodSeq=3000000779&sdSeq=2/",
+    "X-CSRF-TOKEN": "J43Ynxs/rKsqQVo2/4ui3OuDdu2YdmJ3HBCOtbSn1SFYkC3Zt/ou9oeiPKLaHxiP:ceLbOBVy7nJtfrbo4NRrJGzpYK7gTPy/rlF1tnNBw4g=",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+  },
+  "form": {},
+  "raw_body": null,
+  "stack": "  File \"C:\\Users\\HYEON\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\windows_events.py\", line 321, in run_forever\n    super().run_forever()\n  File \"C:\\Users\\HYEON\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\base_events.py\", line 603, in run_forever\n    self._run_once()\n  File \"C:\\Users\\HYEON\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\base_events.py\", line 1906, in _run_once\n    handle._run()\n  File \"C:\\Users\\HYEON\\AppData\\Local\\Programs\\Python\\Python310\\lib\\asyncio\\events.py\", line 80, in _run\n    self._context.run(self._callback, *self._args)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 5188, in runner\n    r = await process_one(ctx, code)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 5117, in process_one\n    info = await collect_show_info(scope0 or work, params[\"prodSeq\"], params[\"sdSeq\"], sdCode=sd)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 579, in wrap\n    r = await fn(*a, **k)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 1085, in collect_show_info\n    total, remain, by, plan = await fetch_seat_summary(\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 579, in wrap\n    r = await fn(*a, **k)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 2253, in fetch_seat_summary\n    base = await post_api(scope0, \"/seat/GetRsSeatBaseMap\",\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 2901, in post_api\n    return await fetch_json(\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 579, in wrap\n    r = await fn(*a, **k)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 2955, in fetch_json\n    seq = _netlog_req(url, base_hdrs, {} if isinstance(data, str) else {}, body_text)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff_patched.py\", line 1424, in _netlog_req\n    \"stack\": \"\".join(traceback.format_stack(limit=14)),\n",
+  "ts": "20250908-124301",
+  "seq": 66
+}

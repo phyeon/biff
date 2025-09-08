@@ -1,0 +1,35 @@
+{
+  "tag": "예매세션(prod)",
+  "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/prod",
+  "body": {
+    "prodSeq": 3000000707,
+    "chnlCd": "WEB",
+    "sdSeq": 1,
+    "saleTycd": "SALE_NORMAL",
+    "saleCondNo": 1,
+    "perfDate": ""
+  },
+  "status": 200,
+  "ok": true,
+  "json": {
+    "listSch": [
+      {
+        "prodSeq": 3000000707,
+        "sdSeq": 1,
+        "timeNo": 4,
+        "orderNo": 1,
+        "leftoverSeatCntDispYn": null,
+        "sdStartDt": "20250917",
+        "sdStartHour": "180000",
+        "saleTycd": "SALE_NORMAL",
+        "seatTycd": null,
+        "totSeatCnt": null,
+        "sellSeatCnt": null,
+        "rendrSeatCnt": null,
+        "links": []
+      }
+    ],
+    "resultCode": "0000"
+  },
+  "text": "{\"listSch\":[{\"prodSeq\":3000000707,\"sdSeq\":1,\"timeNo\":4,\"orderNo\":1,\"leftoverSeatCntDispYn\":null,\"sdStartDt\":\"20250917\",\"sdStartHour\":\"180000\",\"saleTycd\":\"SALE_NORMAL\",\"seatTycd\":null,\"totSeatCnt\":null,\"sellSeatCnt\":null,\"rendrSeatCnt\":null,\"links\":[]}],\"resultCode\":\"0000\"}"
+}

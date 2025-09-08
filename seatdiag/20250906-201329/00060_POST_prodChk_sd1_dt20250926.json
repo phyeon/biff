@@ -1,0 +1,37 @@
+{
+  "request": {
+    "id": "00060",
+    "ts": "2025-09-06T20:13:56.588423",
+    "url": "/rs/prodChk",
+    "payload": {
+      "langCd": "ko",
+      "csrfToken": "J43Ynxs/rKsqQVo2/4ui3FbVMmhbJ72x+qu+M5ylMBK8S99w9jvUqHZZ1pClsujv:7UXWyRyfeZe9D2LEaoHAnA6Ta3udMFFCEbKU1aKaoJk=",
+      "prodSeq": "3000000708",
+      "sdSeq": "1",
+      "chnlCd": "WEB",
+      "saleTycd": "SALE_NORMAL",
+      "saleCondNo": "1",
+      "perfDate": "20250926",
+      "user_member_info1": "",
+      "user_member_info2": "",
+      "enCryptTelNo": ""
+    },
+    "headers": {
+      "Referer": "https://biff.maketicket.co.kr/ko/onestop/rs?prodSeq=3000000708&sdSeq=1",
+      "Origin": "https://filmonestop.maketicket.co.kr"
+    }
+  },
+  "keys": [
+    "_raw"
+  ],
+  "summary": {
+    "admissionTotalPersonCnt": null,
+    "admissionAvailPersonCnt": null,
+    "saleSeatCnt": null,
+    "rendrSeatCnt": null,
+    "restSeatCnt": null
+  },
+  "json": {
+    "_raw": ""
+  }
+}

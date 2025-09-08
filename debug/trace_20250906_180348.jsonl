@@ -1,0 +1,147 @@
+{"ts": 1757149437.7822416, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149437.796246, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149437.8102498, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149437.8162427, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149437.8232424, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149437.833245, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149440.170274, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757149440.170274, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149440.1782756, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757149440.1782756, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757149440.226276, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.226276, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.226276, "lvl": "ERR", "ev": "step.error", "name": "load_all_schedules", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.226276, "lvl": "ERR", "ev": "step.error", "name": "seat_counts_by_codes_v4", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.2412748, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2431}
+{"ts": 1757149440.263276, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-Regular.woff2", "body": ""}
+{"ts": 1757149440.2642763, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-Regular.woff2"}
+{"ts": 1757149440.2642763, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-SemiBold.woff2", "body": ""}
+{"ts": 1757149440.2652795, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-SemiBold.woff2"}
+{"ts": 1757149440.2662752, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-Bold.woff2", "body": ""}
+{"ts": 1757149440.2672763, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-Bold.woff2"}
+{"ts": 1757149440.2692761, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//btn_close_b.png", "body": ""}
+{"ts": 1757149440.2692761, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//btn_close_b.png"}
+{"ts": 1757149440.2702749, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//ic_time.png", "body": ""}
+{"ts": 1757149440.2712765, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//ic_time.png"}
+{"ts": 1757149440.2722766, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_check_big.png", "body": ""}
+{"ts": 1757149440.2722766, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_arrow4.png", "body": ""}
+{"ts": 1757149440.2722766, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_check.png", "body": ""}
+{"ts": 1757149440.2772758, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_arrow4.png"}
+{"ts": 1757149440.2842753, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_check.png"}
+{"ts": 1757149440.2852743, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_check_big.png"}
+{"ts": 1757149440.2862742, "lvl": "INFO", "ev": "wire.res", "status": 304, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/js/biff/banner.js"}
+{"ts": 1757149440.2872741, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757149440.3402762, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757149440.3402762, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149440.3422737, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/cancelfee", "body": ""}
+{"ts": 1757149440.3472736, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757149440.3472736, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757149440.3732758, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/cancelfee"}
+{"ts": 1757149440.3732758, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/delivery", "body": ""}
+{"ts": 1757149440.3742743, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 87}
+{"ts": 1757149440.4062753, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.4062753, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.4062753, "lvl": "ERR", "ev": "step.error", "name": "load_all_schedules", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.4072752, "lvl": "ERR", "ev": "step.error", "name": "seat_counts_by_codes_v4", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.4192731, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2596}
+{"ts": 1757149440.438277, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-Regular.woff2", "body": ""}
+{"ts": 1757149440.4392762, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-Regular.woff2"}
+{"ts": 1757149440.4392762, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-SemiBold.woff2", "body": ""}
+{"ts": 1757149440.4402764, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-SemiBold.woff2"}
+{"ts": 1757149440.4402764, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-Bold.woff2", "body": ""}
+{"ts": 1757149440.4412754, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tfront/css/font/Pretendard-Bold.woff2"}
+{"ts": 1757149440.4422758, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//btn_close_b.png", "body": ""}
+{"ts": 1757149440.4422758, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//btn_close_b.png"}
+{"ts": 1757149440.4422758, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//ic_time.png", "body": ""}
+{"ts": 1757149440.4432764, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//ic_time.png"}
+{"ts": 1757149440.4442766, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_check_big.png", "body": ""}
+{"ts": 1757149440.4452777, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_arrow4.png", "body": ""}
+{"ts": 1757149440.4452777, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_check.png", "body": ""}
+{"ts": 1757149440.4462774, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_check_big.png"}
+{"ts": 1757149440.4462774, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_arrow4.png"}
+{"ts": 1757149440.4472744, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_check.png"}
+{"ts": 1757149440.465277, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/delivery"}
+{"ts": 1757149440.4662778, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bul_location.png", "body": ""}
+{"ts": 1757149440.4672766, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bul_location.png"}
+{"ts": 1757149440.4672766, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common/smartixLoadign.webp", "body": ""}
+{"ts": 1757149440.4672766, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757149440.4722738, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757149440.481275, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_radio.png", "body": ""}
+{"ts": 1757149440.4822757, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleCupnByPay", "body": ""}
+{"ts": 1757149440.4822757, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay", "body": ""}
+{"ts": 1757149440.4832745, "lvl": "INFO", "ev": "console", "typ": "log", "text": "payAmout : 10,000"}
+{"ts": 1757149440.4852743, "lvl": "INFO", "ev": "console", "typ": "verbose", "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"}
+{"ts": 1757149440.486275, "lvl": "INFO", "ev": "wire.res", "status": 304, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common/smartixLoadign.webp"}
+{"ts": 1757149440.487274, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_radio.png"}
+{"ts": 1757149440.5132802, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleCupnByPay"}
+{"ts": 1757149440.5172737, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/cancelfee", "body": ""}
+{"ts": 1757149440.5402768, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay"}
+{"ts": 1757149440.5442758, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/cancelfee"}
+{"ts": 1757149440.5452762, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/delivery", "body": ""}
+{"ts": 1757149440.5452762, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 73}
+{"ts": 1757149440.5692744, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149440.5722752, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757149440.5812726, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757149440.5912738, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.5912738, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.5912738, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.5912738, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.5912738, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.5912738, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.5912738, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.5912738, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.592274, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.592274, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.592274, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.592274, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.592274, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757149440.6592777, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/delivery"}
+{"ts": 1757149440.6602783, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bul_location.png", "body": ""}
+{"ts": 1757149440.6612787, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bul_location.png"}
+{"ts": 1757149440.6642764, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common/smartixLoadign.webp", "body": ""}
+{"ts": 1757149440.6652746, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757149440.6752756, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_radio.png", "body": ""}
+{"ts": 1757149440.6762762, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleCupnByPay", "body": ""}
+{"ts": 1757149440.677276, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay", "body": ""}
+{"ts": 1757149440.677276, "lvl": "INFO", "ev": "console", "typ": "log", "text": "payAmout : 10,000"}
+{"ts": 1757149440.6812754, "lvl": "INFO", "ev": "console", "typ": "verbose", "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"}
+{"ts": 1757149440.6822746, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_radio.png"}
+{"ts": 1757149440.6832774, "lvl": "INFO", "ev": "wire.res", "status": 304, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common/smartixLoadign.webp"}
+{"ts": 1757149440.7172763, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleCupnByPay"}
+{"ts": 1757149440.7192755, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay"}
+{"ts": 1757149440.7632768, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 171}
+{"ts": 1757149440.7632768, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757149440.7682762, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757149440.7782753, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.7782753, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.7782753, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.8292766, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149440.8402753, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757149440.851274, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.851274, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.851274, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.851274, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.8522756, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.8522756, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.8522756, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.8522756, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.8522756, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.8522756, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.8522756, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.8522756, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.8522756, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757149440.9732733, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 120}
+{"ts": 1757149440.9732733, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757149440.980276, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149440.980276, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149440.980276, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "fetch_json() got an unexpected keyword argument 'extra_headers'"}
+{"ts": 1757149445.3080842, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149440239&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1278312402.1757149430&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104630776~104630778~104684208~104684211~104948813~105426766~105426768&sid=1757149430&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5144", "body": ""}
+{"ts": 1757149445.3790812, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149440239&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1278312402.1757149430&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104630776~104630778~104684208~104684211~104948813~105426766~105426768&sid=1757149430&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5144"}
+{"ts": 1757149445.3790812, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149440239&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1278312402.1757149430&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104630776~104630778~104684208~104684211~104948813~105426766~105426768&sid=1757149430&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5144", "failure": "net::ERR_ABORTED"}
+{"ts": 1757149445.5040834, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149440408&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1278312402.1757149430&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104630776~104630778~104684208~104684211~104948813~105426766~105426768&sid=1757149430&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5173", "body": ""}
+{"ts": 1757149445.5770838, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149440408&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1278312402.1757149430&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104630776~104630778~104684208~104684211~104948813~105426766~105426768&sid=1757149430&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5173"}
+{"ts": 1757149445.5770838, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149440408&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1278312402.1757149430&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104630776~104630778~104684208~104684211~104948813~105426766~105426768&sid=1757149430&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5173", "failure": "net::ERR_ABORTED"}
+{"ts": 1757149462.743864, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757149462.7498653, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757149462.7528632, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757149462.7528632, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}

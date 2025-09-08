@@ -1,0 +1,32 @@
+{
+  "request": {
+    "id": "00090",
+    "ts": "2025-09-06T20:14:22.824585",
+    "url": "/rs/prodSummary",
+    "payload": {
+      "langCd": "ko",
+      "csrfToken": "",
+      "prodSeq": "3000000708",
+      "sdSeq": "1",
+      "chnlCd": "WEB",
+      "perfDate": "20250926"
+    },
+    "headers": {
+      "Referer": "https://biff.maketicket.co.kr/ko/onestop/rs?prodSeq=3000000708&sdSeq=1/",
+      "Origin": "https://biff.maketicket.co.kr"
+    }
+  },
+  "keys": [
+    "_raw"
+  ],
+  "summary": {
+    "admissionTotalPersonCnt": null,
+    "admissionAvailPersonCnt": null,
+    "saleSeatCnt": null,
+    "rendrSeatCnt": null,
+    "restSeatCnt": null
+  },
+  "json": {
+    "_raw": ""
+  }
+}

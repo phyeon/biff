@@ -1,0 +1,52 @@
+2025-09-07 21:22:20,727.727 DEBUG Using proactor: IocpProactor
+2025-09-07 21:22:20,728.728 INFO DEBUG Using proactor: IocpProactor
+2025-09-07 21:22:24,274.274 INFO → 로그인 시도: id=010******61, pw=********
+2025-09-07 21:22:25,348.348 INFO 🔐 [포털(biff)] 로그인 화면입니다. 로그인만 완료하세요…
+2025-09-07 21:22:25,453.453 INFO ✅ [포털(biff)] 로그인 감지.
+2025-09-07 21:22:25,636.636 INFO ✅ 로그인/세션 준비 완료.
+2025-09-07 21:22:26,593.593 INFO 🎬 [001] [개막식 & 개막작] 어쩔수가없다
+2025-09-07 21:22:26,602.602 INFO 🎬 [934] 취생몽사
+2025-09-07 21:22:26,607.607 INFO 🎬 [804] 액터스 하우스: 이병헌
+2025-09-07 21:22:26,635.635 INFO 🎬 [002] 폐막식 + 부산 어워드 수상작 상영
+2025-09-07 21:22:32,230.230 ERROR ❌ [001] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:22:32,241.241 ERROR ❌ [934] 에러: Page.goto: Target page, context or browser has been closed
+2025-09-07 21:22:32,251.251 ERROR ❌ [804] 에러: Page.goto: Target page, context or browser has been closed
+2025-09-07 21:22:32,260.260 ERROR ❌ [002] 에러: Page.goto: Target page, context or browser has been closed
+2025-09-07 21:22:33,570.570 INFO 🎬 [554] 퐁네프의 연인들
+2025-09-07 21:22:53,936.936 ERROR ❌ [554] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+  navigated to "https://biff.maketicket.co.kr/ko/mypageLogin?sdCode=554"
+  navigated to "https://biff.maketicket.co.kr/ko/resMain?sdCode=554"
+============================================================
+2025-09-07 21:23:00,746.746 ERROR Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<Connection.run() done, defined at C:\Users\HYEON\projects\BIFF\.venv\lib\site-packages\playwright\_impl\_connection.py:303> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1906, in _run_once
+    handle._run()
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\HYEON\projects\BIFF\.venv\lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.run()
+  File "C:\Users\HYEON\projects\BIFF\.venv\lib\site-packages\playwright\_impl\_transport.py", line 160, in run
+    obj = self.deserialize_message(buffer)
+  File "C:\Users\HYEON\projects\BIFF\.venv\lib\site-packages\playwright\_impl\_transport.py", line 84, in deserialize_message
+    obj = json.loads(data)
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\HYEON\AppData\Local\Programs\Python\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+KeyboardInterrupt

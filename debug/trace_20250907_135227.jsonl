@@ -1,0 +1,373 @@
+{"ts": 1757220754.0339622, "lvl": "INFO", "ev": "step.begin", "name": "arm_payment_hold"}
+{"ts": 1757220754.036962, "lvl": "INFO", "ev": "step.end", "name": "arm_payment_hold", "ms": 2}
+{"ts": 1757220754.03996, "lvl": "INFO", "ev": "step.begin", "name": "arm_payment_hold"}
+{"ts": 1757220754.041961, "lvl": "INFO", "ev": "step.end", "name": "arm_payment_hold", "ms": 2}
+{"ts": 1757220754.0449624, "lvl": "INFO", "ev": "step.begin", "name": "arm_payment_hold"}
+{"ts": 1757220754.047962, "lvl": "INFO", "ev": "step.end", "name": "arm_payment_hold", "ms": 2}
+{"ts": 1757220754.0509615, "lvl": "INFO", "ev": "step.begin", "name": "arm_payment_hold"}
+{"ts": 1757220754.05296, "lvl": "INFO", "ev": "step.end", "name": "arm_payment_hold", "ms": 1}
+{"ts": 1757220754.0559602, "lvl": "INFO", "ev": "step.begin", "name": "arm_payment_hold"}
+{"ts": 1757220754.0579598, "lvl": "INFO", "ev": "step.end", "name": "arm_payment_hold", "ms": 1}
+{"ts": 1757220754.0599608, "lvl": "INFO", "ev": "step.begin", "name": "arm_payment_hold"}
+{"ts": 1757220754.0619621, "lvl": "INFO", "ev": "step.end", "name": "arm_payment_hold", "ms": 2}
+{"ts": 1757220755.016724, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757220755.0237231, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757220755.0297236, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757220755.036725, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757220755.0442488, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757220755.0517685, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757220756.6655161, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757220756.6655161, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220756.6748886, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757220756.6748886, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757220756.7224276, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220756.8212352, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757220756.8212352, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220756.826957, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 5}
+{"ts": 1757220756.8279588, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757220756.86896, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 146}
+{"ts": 1757220756.86896, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 194}
+{"ts": 1757220756.86896, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 203}
+{"ts": 1757220756.8809662, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 1829}
+{"ts": 1757220756.980591, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/delivery"}
+{"ts": 1757220756.980591, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bul_location.png", "body": ""}
+{"ts": 1757220756.980591, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bul_location.png"}
+{"ts": 1757220756.980591, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common/smartixLoadign.webp", "body": ""}
+{"ts": 1757220756.9815912, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757220756.992591, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_radio.png", "body": ""}
+{"ts": 1757220756.9935915, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleCupnByPay", "body": ""}
+{"ts": 1757220756.9935915, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay", "body": ""}
+{"ts": 1757220756.9935915, "lvl": "INFO", "ev": "console", "typ": "log", "text": "payAmout : 10,000"}
+{"ts": 1757220756.99659, "lvl": "INFO", "ev": "console", "typ": "verbose", "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"}
+{"ts": 1757220756.99659, "lvl": "INFO", "ev": "wire.res", "status": 304, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common/smartixLoadign.webp"}
+{"ts": 1757220756.998427, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_radio.png"}
+{"ts": 1757220757.0134094, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757220757.0229614, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleCupnByPay"}
+{"ts": 1757220757.0729601, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay"}
+{"ts": 1757220757.085962, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757220757.1365569, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220757.1779594, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757220757.1779594, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 350}
+{"ts": 1757220757.1779594, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 356}
+{"ts": 1757220757.1889598, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2144}
+{"ts": 1757220757.2059708, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757220761.8099563, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757220756725&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5152", "body": ""}
+{"ts": 1757220761.9099622, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757220756725&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5152"}
+{"ts": 1757220761.9099622, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757220756725&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5152", "failure": "net::ERR_ABORTED"}
+{"ts": 1757220762.0379627, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5024}
+{"ts": 1757220762.1199577, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220762.1219568, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757220756877&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5313", "body": ""}
+{"ts": 1757220762.135955, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757220762.1529582, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.1849556, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 31}
+{"ts": 1757220762.1909585, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.2169569, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5010}
+{"ts": 1757220762.22396, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757220756877&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5313"}
+{"ts": 1757220762.2249587, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757220756877&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5313", "failure": "net::ERR_ABORTED"}
+{"ts": 1757220762.233959, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757220762.233959, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.279165, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757220762.279165, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.3211634, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220762.3301644, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757220762.3301644, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.3471682, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 26}
+{"ts": 1757220762.3579788, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.3759644, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757220762.3759644, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.3959606, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 37}
+{"ts": 1757220762.3959606, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.418959, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757220762.418959, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220762.437962, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757220762.437962, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.5105245, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757220762.5105245, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.549525, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 130}
+{"ts": 1757220762.549525, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757220762.5535226, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.576523, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 65}
+{"ts": 1757220762.576523, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.6030426, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757220762.6030426, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.6280928, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757220762.6290917, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.6520917, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757220762.6520917, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.674093, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757220762.6750948, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220762.6930938, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757220762.6930938, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 143}
+{"ts": 1757220762.6930938, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_summary"}
+{"ts": 1757220762.6930938, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220762.6930938, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220762.7399623, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 46}
+{"ts": 1757220762.7399623, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 46}
+{"ts": 1757220762.7399623, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220762.8404803, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 165}
+{"ts": 1757220762.8404803, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757220762.8529997, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.8969994, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757220762.8969994, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.9110014, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 171}
+{"ts": 1757220762.915999, "lvl": "INFO", "ev": "step.begin", "name": "ensure_perf_and_csrf"}
+{"ts": 1757220762.9400008, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757220762.9400008, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220762.9848506, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 44}
+{"ts": 1757220762.9848506, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 144}
+{"ts": 1757220762.9848506, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_summary"}
+{"ts": 1757220762.9848506, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220762.9848506, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220762.9958506, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757220762.9968512, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 12}
+{"ts": 1757220762.9968512, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220763.0635293, "lvl": "INFO", "ev": "step.end", "name": "ensure_perf_and_csrf", "ms": 147}
+{"ts": 1757220763.0635293, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.1173127, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 53}
+{"ts": 1757220763.1173127, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757220763.1183126, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.1273105, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 130}
+{"ts": 1757220763.127969, "lvl": "INFO", "ev": "step.begin", "name": "ensure_perf_and_csrf"}
+{"ts": 1757220763.1599555, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757220763.1609547, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.201958, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757220763.201958, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 84}
+{"ts": 1757220763.201958, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_via_tickettype"}
+{"ts": 1757220763.201958, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220763.201958, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220763.2109592, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757220763.2109592, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 9}
+{"ts": 1757220763.2159615, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757220763.2219574, "lvl": "INFO", "ev": "step.end", "name": "ensure_perf_and_csrf", "ms": 93}
+{"ts": 1757220763.2219574, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.2519584, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.2739563, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757220763.2739563, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757220763.2739563, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.2949524, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757220763.2949524, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 78}
+{"ts": 1757220763.2959526, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.3159502, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757220763.3159502, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.382951, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 67}
+{"ts": 1757220763.382951, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 108}
+{"ts": 1757220763.382951, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_via_tickettype"}
+{"ts": 1757220763.382951, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220763.382951, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220763.4009519, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 104}
+{"ts": 1757220763.4009519, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_via_tickettype", "ms": 198}
+{"ts": 1757220763.4009519, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_summary", "ms": 707}
+{"ts": 1757220763.4009519, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.4129505, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 29}
+{"ts": 1757220763.4129505, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 29}
+{"ts": 1757220763.416953, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757220763.4449513, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757220763.4449513, "lvl": "INFO", "ev": "step.begin", "name": "collect_show_info"}
+{"ts": 1757220763.4549506, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.4979527, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757220763.4979527, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 80}
+{"ts": 1757220763.4979527, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.5129638, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.5589654, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 46}
+{"ts": 1757220763.5589654, "lvl": "INFO", "ev": "step.begin", "name": "filmapi_meta"}
+{"ts": 1757220763.5589654, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.5839634, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 86}
+{"ts": 1757220763.5849645, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_via_tickettype", "ms": 202}
+{"ts": 1757220763.5849645, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_summary", "ms": 600}
+{"ts": 1757220763.5849645, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.6279547, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757220763.6279547, "lvl": "INFO", "ev": "step.begin", "name": "collect_show_info"}
+{"ts": 1757220763.649952, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 90}
+{"ts": 1757220763.649952, "lvl": "INFO", "ev": "step.end", "name": "filmapi_meta", "ms": 90}
+{"ts": 1757220763.649952, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_summary"}
+{"ts": 1757220763.649952, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220763.649952, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220763.6579542, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757220763.6579542, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 8}
+{"ts": 1757220763.6579542, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220763.7208521, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.7729542, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 52}
+{"ts": 1757220763.7729542, "lvl": "INFO", "ev": "step.begin", "name": "filmapi_meta"}
+{"ts": 1757220763.7729542, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.779952, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 121}
+{"ts": 1757220763.779952, "lvl": "INFO", "ev": "step.begin", "name": "ensure_perf_and_csrf"}
+{"ts": 1757220763.8299515, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 56}
+{"ts": 1757220763.8299515, "lvl": "INFO", "ev": "step.end", "name": "filmapi_meta", "ms": 56}
+{"ts": 1757220763.8299515, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_summary"}
+{"ts": 1757220763.8299515, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220763.8299515, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220763.840957, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757220763.840957, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 11}
+{"ts": 1757220763.840957, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220763.8869834, "lvl": "INFO", "ev": "step.end", "name": "ensure_perf_and_csrf", "ms": 107}
+{"ts": 1757220763.8869834, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.9339812, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 46}
+{"ts": 1757220763.9339812, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757220763.9339812, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.9799607, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757220763.9799607, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220763.9889617, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 148}
+{"ts": 1757220763.9889617, "lvl": "INFO", "ev": "step.begin", "name": "ensure_perf_and_csrf"}
+{"ts": 1757220764.0349598, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757220764.0349598, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 100}
+{"ts": 1757220764.0349598, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_via_tickettype"}
+{"ts": 1757220764.0349598, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220764.0349598, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220764.049962, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 15}
+{"ts": 1757220764.049962, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 15}
+{"ts": 1757220764.0559626, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757220764.0969899, "lvl": "INFO", "ev": "step.end", "name": "ensure_perf_and_csrf", "ms": 108}
+{"ts": 1757220764.0969899, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220764.1099906, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220764.147991, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757220764.147991, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757220764.147991, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220764.176962, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 66}
+{"ts": 1757220764.176962, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 120}
+{"ts": 1757220764.177959, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220764.2029576, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757220764.2029576, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220764.2439616, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757220764.2439616, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 95}
+{"ts": 1757220764.2439616, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_via_tickettype"}
+{"ts": 1757220764.2439616, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220764.2439616, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220764.2659564, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 87}
+{"ts": 1757220764.2659564, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_via_tickettype", "ms": 230}
+{"ts": 1757220764.2659564, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_summary", "ms": 616}
+{"ts": 1757220764.2659564, "lvl": "INFO", "ev": "step.end", "name": "collect_show_info", "ms": 821}
+{"ts": 1757220764.2679567, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 23}
+{"ts": 1757220764.2679567, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 23}
+{"ts": 1757220764.2719572, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757220764.2909596, "lvl": "INFO", "ev": "step.begin", "name": "step_to_payment"}
+{"ts": 1757220764.3019557, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220764.3539503, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757220764.3539503, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 81}
+{"ts": 1757220764.3539503, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220764.376957, "lvl": "INFO", "ev": "step.begin", "name": "reached_payment"}
+{"ts": 1757220764.376957, "lvl": "INFO", "ev": "step.end", "name": "reached_payment", "ms": 0}
+{"ts": 1757220764.376957, "lvl": "INFO", "ev": "step.end", "name": "step_to_payment", "ms": 85}
+{"ts": 1757220764.376957, "lvl": "INFO", "ev": "step.begin", "name": "hold_at_payment"}
+{"ts": 1757220764.478099, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 124}
+{"ts": 1757220764.478099, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_via_tickettype", "ms": 234}
+{"ts": 1757220764.478099, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_summary", "ms": 648}
+{"ts": 1757220764.478099, "lvl": "INFO", "ev": "step.end", "name": "collect_show_info", "ms": 850}
+{"ts": 1757220764.4999607, "lvl": "INFO", "ev": "step.begin", "name": "step_to_payment"}
+{"ts": 1757220764.5439525, "lvl": "INFO", "ev": "step.begin", "name": "reached_payment"}
+{"ts": 1757220764.5439525, "lvl": "INFO", "ev": "step.end", "name": "reached_payment", "ms": 0}
+{"ts": 1757220764.5439525, "lvl": "INFO", "ev": "step.end", "name": "step_to_payment", "ms": 43}
+{"ts": 1757220764.5439525, "lvl": "INFO", "ev": "step.begin", "name": "hold_at_payment"}
+{"ts": 1757220785.4718492, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 30455}
+{"ts": 1757220786.0415072, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31004}
+{"ts": 1757220786.0865355, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31056}
+{"ts": 1757220786.13216, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31108}
+{"ts": 1757220791.2692285, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757220791.271226, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757220791.2992258, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757220791.3012254, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757220792.5267026, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220787421&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=4&tfd=5140", "body": ""}
+{"ts": 1757220792.6247783, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220787421&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=4&tfd=5140"}
+{"ts": 1757220792.6247783, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220787421&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=4&tfd=5140", "failure": "net::ERR_ABORTED"}
+{"ts": 1757220793.7218761, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788609&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115489982&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=18&tfd=5149", "body": ""}
+{"ts": 1757220793.7218761, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788633&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=7&tfd=5131", "body": ""}
+{"ts": 1757220793.7368767, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788650&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115480709&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=8&tfd=5144", "body": ""}
+{"ts": 1757220793.8199027, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788633&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=7&tfd=5131"}
+{"ts": 1757220793.8199027, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788633&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=7&tfd=5131", "failure": "net::ERR_ABORTED"}
+{"ts": 1757220793.8204186, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788609&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115489982&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=18&tfd=5149"}
+{"ts": 1757220793.8204186, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788609&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115489982&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=18&tfd=5149", "failure": "net::ERR_ABORTED"}
+{"ts": 1757220793.8334143, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788650&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115480709&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=8&tfd=5144"}
+{"ts": 1757220793.8334143, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757220788650&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568969857.1757220749&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115480709&sid=1757220749&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=8&tfd=5144", "failure": "net::ERR_ABORTED"}
+{"ts": 1757220794.3865287, "lvl": "INFO", "ev": "step.end", "name": "hold_at_payment", "ms": 30009}
+{"ts": 1757220794.5543914, "lvl": "INFO", "ev": "step.end", "name": "hold_at_payment", "ms": 30010}
+{"ts": 1757220796.2796745, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5010}
+{"ts": 1757220796.2816768, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5010}
+{"ts": 1757220796.3002534, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 4999}
+{"ts": 1757220796.3022528, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5003}
+{"ts": 1757220796.3377557, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220796.3430178, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220796.365017, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220796.3670156, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220796.4394891, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 101}
+{"ts": 1757220796.4454894, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 102}
+{"ts": 1757220796.4681344, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.477134, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 112}
+{"ts": 1757220796.4781318, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 111}
+{"ts": 1757220796.4801319, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.4981346, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.506133, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.5301566, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 62}
+{"ts": 1757220796.5301566, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.5646157, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 84}
+{"ts": 1757220796.5646157, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.609618, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 111}
+{"ts": 1757220796.609618, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.6382108, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 132}
+{"ts": 1757220796.6382108, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.675297, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 145}
+{"ts": 1757220796.675297, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.70285, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 138}
+{"ts": 1757220796.7038476, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.7293975, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 119}
+{"ts": 1757220796.7293975, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.764424, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 126}
+{"ts": 1757220796.764424, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.793092, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 117}
+{"ts": 1757220796.793092, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.8246021, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 120}
+{"ts": 1757220796.8246021, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.8597412, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 130}
+{"ts": 1757220796.8597412, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.8907406, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 126}
+{"ts": 1757220796.8907406, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.9203558, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 127}
+{"ts": 1757220796.9213548, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.9594324, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 134}
+{"ts": 1757220796.9594324, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220796.9904351, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 130}
+{"ts": 1757220796.9914353, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220797.0351877, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 144}
+{"ts": 1757220797.036189, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220797.0777104, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 156}
+{"ts": 1757220797.0777104, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220797.1097105, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 150}
+{"ts": 1757220797.1097105, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220797.1427326, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 152}
+{"ts": 1757220797.1427326, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220797.1787288, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 142}
+{"ts": 1757220797.1787288, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757220797.2092838, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 131}
+{"ts": 1757220797.2102835, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220797.2322962, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 122}
+{"ts": 1757220797.233298, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220797.2602873, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 117}
+{"ts": 1757220797.2602873, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220797.2874758, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 108}
+{"ts": 1757220797.2874758, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757220797.4940717, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 283}
+{"ts": 1757220797.4940717, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757220797.4940717, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220797.4940717, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220797.4950707, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757220797.4950707, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 0}
+{"ts": 1757220797.4950707, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "ensure_full_rs_params: scope is None (after spawn)"}
+{"ts": 1757220797.522069, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 288}
+{"ts": 1757220797.522069, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757220797.522069, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220797.522069, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220797.522069, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757220797.522069, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 0}
+{"ts": 1757220797.522069, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "ensure_full_rs_params: scope is None (after spawn)"}
+{"ts": 1757220797.5501153, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 289}
+{"ts": 1757220797.5511098, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757220797.5511098, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220797.5511098, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220797.5511098, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757220797.5511098, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 0}
+{"ts": 1757220797.5511098, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "ensure_full_rs_params: scope is None (after spawn)"}
+{"ts": 1757220797.590111, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 302}
+{"ts": 1757220797.590111, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757220797.590111, "lvl": "INFO", "ev": "step.begin", "name": "ensure_scope_or_spawn"}
+{"ts": 1757220797.590111, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757220797.590111, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "'NoneType' object has no attribute 'wait_for_timeout'"}
+{"ts": 1757220797.590111, "lvl": "INFO", "ev": "step.end", "name": "ensure_scope_or_spawn", "ms": 0}
+{"ts": 1757220797.590111, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "ensure_full_rs_params: scope is None (after spawn)"}

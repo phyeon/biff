@@ -1,0 +1,20 @@
+{
+  "tag": "결제진입(NRS)",
+  "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/delivery",
+  "body": {
+    "prodSeq": 3000000707,
+    "chnlCd": "WEB",
+    "sdSeq": 1,
+    "saleCondNo": 1,
+    "saleTycd": "SALE_NORMAL",
+    "tkttypSeq": 1
+  },
+  "status": 200,
+  "ok": true,
+  "json": {
+    "resultCode": "0003",
+    "resultMessage": "로그인 후 이용 가능합니다.로그인 하시겠습니까?",
+    "resultGlobalCode": "10118"
+  },
+  "text": "{\"resultCode\":\"0003\",\"resultMessage\":\"로그인 후 이용 가능합니다.로그인 하시겠습니까?\",\"resultGlobalCode\":\"10118\"}"
+}

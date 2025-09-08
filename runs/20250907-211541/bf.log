@@ -1,0 +1,27 @@
+2025-09-07 21:15:41,781.781 DEBUG Using proactor: IocpProactor
+2025-09-07 21:15:41,782.782 INFO DEBUG Using proactor: IocpProactor
+2025-09-07 21:15:44,055.055 INFO → 로그인 시도: id=010******61, pw=********
+2025-09-07 21:15:45,516.516 INFO 🔐 [포털(biff)] 로그인 화면입니다. 로그인만 완료하세요…
+2025-09-07 21:15:45,561.561 INFO ✅ [포털(biff)] 로그인 감지.
+2025-09-07 21:15:45,684.684 INFO ✅ 로그인/세션 준비 완료.
+2025-09-07 21:15:46,133.133 INFO 🎬 [001] [개막식 & 개막작] 어쩔수가없다
+2025-09-07 21:15:46,143.143 INFO 🎬 [002] 폐막식 + 부산 어워드 수상작 상영
+2025-09-07 21:15:46,150.150 INFO 🎬 [804] 액터스 하우스: 이병헌
+2025-09-07 21:15:46,181.181 INFO 🎬 [934] 취생몽사
+2025-09-07 21:16:06,937.937 ERROR ❌ [001] 에러: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+  navigated to "https://biff.maketicket.co.kr/ko/login?sdCode=001"
+  navigated to "https://biff.maketicket.co.kr/ko/login?sdCode=001"
+============================================================
+2025-09-07 21:16:07,086.086 INFO 🎬 [554] 퐁네프의 연인들
+2025-09-07 21:16:27,636.636 ERROR ❌ [002] 에러: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:16:35,931.931 ERROR ❌ [804] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:16:35,943.943 ERROR ❌ [934] 에러: Page.goto: Target page, context or browser has been closed
+2025-09-07 21:16:35,958.958 ERROR ❌ [554] 에러: Page.goto: Target page, context or browser has been closed

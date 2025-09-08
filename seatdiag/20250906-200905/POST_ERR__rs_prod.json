@@ -1,0 +1,21 @@
+{
+  "request": {
+    "ts": "2025-09-06T20:09:59.306001",
+    "url": "/rs/prod",
+    "payload": {
+      "prodSeq": "3000000779",
+      "sdSeq": "",
+      "chnlCd": "WEB",
+      "saleTycd": "SALE_NORMAL",
+      "saleCondNo": "1",
+      "perfDate": "",
+      "csrfToken": ""
+    },
+    "headers": {
+      "Referer": "https://biff.maketicket.co.kr/ko/onestop/rs?prodSeq=3000000779&sdSeq=2/",
+      "Origin": "https://biff.maketicket.co.kr"
+    }
+  },
+  "error": "no page available (scope=None)",
+  "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff2.py\", line 92, in post_api\n    resp = await _POST_API_ORIG(scope, url, payload or {}, extra_headers=extra_headers, **kwargs)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff.py\", line 1309, in post_api\n    return await fetch_json(\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff.py\", line 67, in wrap\n    r = await fn(*a, **k)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff.py\", line 1357, in fetch_json\n    req = _request_ctx(scope_or_page)\n  File \"C:\\Users\\HYEON\\projects\\BIFF\\biff.py\", line 467, in _request_ctx\n    raise RuntimeError(\"no page available (scope=None)\")\nRuntimeError: no page available (scope=None)\n"
+}

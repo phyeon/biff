@@ -1,0 +1,27 @@
+{
+  "tag": "요금표(NRS)",
+  "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/tickettype",
+  "body": {
+    "prodSeq": 3000000707,
+    "chnlCd": "WEB",
+    "perfTyCd": "",
+    "perfDate": "20250917",
+    "sdSeq": 1,
+    "sdCode": "001",
+    "saleTycd": "SALE_NORMAL",
+    "sdSeqOld": 1,
+    "saleTycdOld": "SALE_NORMAL",
+    "saleCondNo": 1,
+    "timeStemp": "",
+    "prodTyCd": "NORMAL",
+    "planTypeCd": "NRS",
+    "seatTypeCode": "NRS",
+    "jType": "I",
+    "rsrvStep": "TKT",
+    "langCd": "ko"
+  },
+  "status": 401,
+  "ok": false,
+  "json": {},
+  "text": "{}"
+}

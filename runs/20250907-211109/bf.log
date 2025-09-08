@@ -1,0 +1,34 @@
+2025-09-07 21:11:09,263.263 DEBUG Using proactor: IocpProactor
+2025-09-07 21:11:09,264.264 INFO DEBUG Using proactor: IocpProactor
+2025-09-07 21:11:11,446.446 INFO → 로그인 시도: id=010******61, pw=********
+2025-09-07 21:11:13,073.073 INFO 🔐 [포털(biff)] 로그인 화면입니다. 로그인만 완료하세요…
+2025-09-07 21:11:13,101.101 INFO ✅ [포털(biff)] 로그인 감지.
+2025-09-07 21:11:13,197.197 INFO ✅ 로그인/세션 준비 완료.
+2025-09-07 21:11:13,595.595 INFO 🎬 [804] 액터스 하우스: 이병헌
+2025-09-07 21:11:13,611.611 INFO 🎬 [002] 폐막식 + 부산 어워드 수상작 상영
+2025-09-07 21:11:13,618.618 INFO 🎬 [001] [개막식 & 개막작] 어쩔수가없다
+2025-09-07 21:11:13,625.625 INFO 🎬 [934] 취생몽사
+2025-09-07 21:11:17,330.330 ERROR ❌ [934] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:11:17,339.339 ERROR ❌ [804] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:11:17,351.351 ERROR ❌ [002] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:11:17,366.366 ERROR ❌ [001] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================
+2025-09-07 21:11:17,707.707 INFO 🎬 [554] 퐁네프의 연인들
+2025-09-07 21:11:17,714.714 ERROR ❌ [554] 에러: Page.goto: Target page, context or browser has been closed
+2025-09-07 21:11:19,740.740 INFO 
+── 아티팩트 저장 위치 ───────────────────────
+2025-09-07 21:11:19,742.742 INFO   • 로그: C:\Users\HYEON\projects\BIFF\runs\20250907-211109\bf.log
+2025-09-07 21:11:19,744.744 INFO   • 이벤트(JSONL): C:\Users\HYEON\projects\BIFF\runs\20250907-211109\events.ndjson
+2025-09-07 21:11:19,746.746 INFO   • HAR: C:\Users\HYEON\projects\BIFF\runs\20250907-211109\network.har
+2025-09-07 21:11:19,749.749 INFO   • Trace: C:\Users\HYEON\projects\BIFF\runs\20250907-211109\trace.zip

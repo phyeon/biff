@@ -1,0 +1,20 @@
+{
+  "tag": "판매가능(prodChk)",
+  "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/prodChk",
+  "body": {
+    "prodSeq": 3000000707,
+    "chnlCd": "WEB",
+    "sdSeq": 1,
+    "saleTycd": "SALE_NORMAL",
+    "saleCondNo": 1,
+    "perfDate": "2025-09-17",
+    "langCd": "ko",
+    "user_member_info1": "",
+    "user_member_info2": "",
+    "enCryptTelNo": ""
+  },
+  "status": 401,
+  "ok": false,
+  "json": {},
+  "text": "{}"
+}

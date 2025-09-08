@@ -1,0 +1,26 @@
+{"ts": 1757251263.8941767, "lvl": "INFO", "ev": "step.begin", "name": "filmapi_meta"}
+{"ts": 1757251263.8941767, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757251264.1221817, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 228}
+{"ts": 1757251264.1221817, "lvl": "INFO", "ev": "step.end", "name": "filmapi_meta", "ms": 228}
+{"ts": 1757251264.1221817, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_via_blocksummary2"}
+{"ts": 1757251264.1401775, "lvl": "ERR", "ev": "step.error", "name": "seat_counts_via_blocksummary2", "err": "CSRF token unavailable (would cause 500). Stop before POST."}
+{"ts": 1757251264.3641784, "lvl": "INFO", "ev": "step.begin", "name": "arm_payment_hold"}
+{"ts": 1757251264.3671768, "lvl": "INFO", "ev": "step.end", "name": "arm_payment_hold", "ms": 2}
+{"ts": 1757251264.894177, "lvl": "INFO", "ev": "step.begin", "name": "map_sd_from_filmapi"}
+{"ts": 1757251264.894177, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757251264.9741771, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 80}
+{"ts": 1757251264.975179, "lvl": "INFO", "ev": "step.end", "name": "map_sd_from_filmapi", "ms": 81}
+{"ts": 1757251264.975179, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757251274.985178, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757251274.985178, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757251274.9931755, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757251274.9931755, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757251275.020177, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757251275.114178, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 94}
+{"ts": 1757251275.1151772, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 122}
+{"ts": 1757251275.1151772, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 129}
+{"ts": 1757251275.1341798, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 10159}
+{"ts": 1757251275.1661787, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757251280.1859486, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5019}
+{"ts": 1757251280.2069454, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757251280.2269506, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "Page.wait_for_timeout: Target page, context or browser has been closed"}

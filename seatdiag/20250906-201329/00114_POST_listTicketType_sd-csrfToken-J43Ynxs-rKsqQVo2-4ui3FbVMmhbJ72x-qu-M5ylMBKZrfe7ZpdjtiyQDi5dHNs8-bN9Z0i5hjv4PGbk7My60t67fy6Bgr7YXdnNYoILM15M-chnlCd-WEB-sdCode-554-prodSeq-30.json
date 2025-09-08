@@ -1,0 +1,30 @@
+{
+  "request": {
+    "id": "00114",
+    "ts": "2025-09-06T20:14:37.419606",
+    "url": "/rs/listTicketType",
+    "payload": {
+      "langCd": "ko",
+      "csrfToken": "J43Ynxs/rKsqQVo2/4ui3FbVMmhbJ72x+qu+M5ylMBKZrfe7ZpdjtiyQDi5dHNs8:bN9Z0i5hjv4PGbk7My60t67fy6Bgr7YXdnNYoILM15M=",
+      "prodSeq": "554",
+      "sdSeq": "{'csrfToken': 'J43Ynxs/rKsqQVo2/4ui3FbVMmhbJ72x+qu+M5ylMBKZrfe7ZpdjtiyQDi5dHNs8:bN9Z0i5hjv4PGbk7My60t67fy6Bgr7YXdnNYoILM15M=', 'chnlCd': 'WEB', 'sdCode': '554', 'prodSeq': '3000000933', 'sdSeq': '1', 'perfDate': '20250925'}"
+    },
+    "headers": {
+      "Referer": "https://biff.maketicket.co.kr/ko/onestop/rs?prodSeq=554&sdSeq=%7B%27csrfToken%27%3A%20%27J43Ynxs/rKsqQVo2/4ui3FbVMmhbJ72x%2Bqu%2BM5ylMBKZrfe7ZpdjtiyQDi5dHNs8%3AbN9Z0i5hjv4PGbk7My60t67fy6Bgr7YXdnNYoILM15M%3D%27%2C%20%27chnlCd%27%3A%20%27WEB%27%2C%20%27sdCode%27%3A%20%27554%27%2C%20%27prodSeq%27%3A%20%273000000933%27%2C%20%27sdSeq%27%3A%20%271%27%2C%20%27perfDate%27%3A%20%2720250925%27%7D/",
+      "Origin": "https://biff.maketicket.co.kr"
+    }
+  },
+  "keys": [
+    "_raw"
+  ],
+  "summary": {
+    "admissionTotalPersonCnt": null,
+    "admissionAvailPersonCnt": null,
+    "saleSeatCnt": null,
+    "rendrSeatCnt": null,
+    "restSeatCnt": null
+  },
+  "json": {
+    "_raw": ""
+  }
+}

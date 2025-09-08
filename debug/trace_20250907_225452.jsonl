@@ -1,0 +1,1068 @@
+{"ts": 1757253312.9009898, "lvl": "INFO", "ev": "step.begin", "name": "filmapi_meta"}
+{"ts": 1757253312.9009898, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253313.1039894, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 202}
+{"ts": 1757253313.1039894, "lvl": "INFO", "ev": "step.end", "name": "filmapi_meta", "ms": 202}
+{"ts": 1757253313.1049879, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_via_blocksummary2"}
+{"ts": 1757253313.118987, "lvl": "ERR", "ev": "step.error", "name": "seat_counts_via_blocksummary2", "err": "CSRF token unavailable (would cause 500). Stop before POST."}
+{"ts": 1757253313.2965102, "lvl": "INFO", "ev": "step.begin", "name": "arm_payment_hold"}
+{"ts": 1757253313.2985103, "lvl": "INFO", "ev": "step.end", "name": "arm_payment_hold", "ms": 2}
+{"ts": 1757253313.7835083, "lvl": "INFO", "ev": "step.begin", "name": "filmapi_meta"}
+{"ts": 1757253313.7835083, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253313.862507, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 78}
+{"ts": 1757253313.862507, "lvl": "INFO", "ev": "step.end", "name": "filmapi_meta", "ms": 78}
+{"ts": 1757253313.8755062, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757253323.5132468, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757253323.5132468, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757253323.5212462, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757253323.5212462, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757253323.5432472, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253323.6292748, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 86}
+{"ts": 1757253323.6292748, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 108}
+{"ts": 1757253323.6292748, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 116}
+{"ts": 1757253323.6424909, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 9766}
+{"ts": 1757253323.659247, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757253328.6699266, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5010}
+{"ts": 1757253328.7159266, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757253328.7209265, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 4}
+{"ts": 1757253328.7289255, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253328.7599304, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 31}
+{"ts": 1757253328.7639356, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253328.8069274, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757253328.8069274, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253328.8449285, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 38}
+{"ts": 1757253328.8449285, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253328.8849387, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 40}
+{"ts": 1757253328.8859396, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253328.9219396, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 36}
+{"ts": 1757253328.9219396, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253328.9639387, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757253328.9639387, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757253329.100939, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 137}
+{"ts": 1757253329.100939, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757253329.1069422, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.161941, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253329.1629422, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.2109404, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 47}
+{"ts": 1757253329.2109404, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.253937, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757253329.253937, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 152}
+{"ts": 1757253329.253937, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_summary"}
+{"ts": 1757253329.253937, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757253329.2659392, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 12}
+{"ts": 1757253329.3064523, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.3564534, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757253329.3564534, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.4004567, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 44}
+{"ts": 1757253329.401459, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_summary", "ms": 147}
+{"ts": 1757253329.401459, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.482455, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 80}
+{"ts": 1757253329.482455, "lvl": "INFO", "ev": "step.begin", "name": "collect_show_info"}
+{"ts": 1757253329.5574558, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.6364532, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 78}
+{"ts": 1757253329.6374536, "lvl": "INFO", "ev": "step.begin", "name": "filmapi_meta"}
+{"ts": 1757253329.6374536, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.6924548, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 55}
+{"ts": 1757253329.6924548, "lvl": "INFO", "ev": "step.end", "name": "filmapi_meta", "ms": 55}
+{"ts": 1757253329.6924548, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_summary"}
+{"ts": 1757253329.6924548, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757253329.70546, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757253329.7064567, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.7514532, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 44}
+{"ts": 1757253329.7524524, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.7944555, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757253329.7954578, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_summary", "ms": 103}
+{"ts": 1757253329.7954578, "lvl": "INFO", "ev": "step.end", "name": "collect_show_info", "ms": 313}
+{"ts": 1757253329.850453, "lvl": "INFO", "ev": "step.begin", "name": "step_to_payment"}
+{"ts": 1757253329.9444623, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253329.9444623, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253329.9444623, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253329.991453, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 46}
+{"ts": 1757253329.991453, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.032455, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 41}
+{"ts": 1757253330.032455, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.0804524, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 47}
+{"ts": 1757253330.0804524, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.1204534, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 40}
+{"ts": 1757253330.1204534, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.171455, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757253330.171455, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.219453, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 47}
+{"ts": 1757253330.219453, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 274}
+{"ts": 1757253330.219453, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253330.295456, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 76}
+{"ts": 1757253330.295456, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253330.2964551, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.3474529, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757253330.3474529, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.3874536, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 39}
+{"ts": 1757253330.3874536, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.4354544, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 48}
+{"ts": 1757253330.4354544, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.4854527, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757253330.4854527, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.5414517, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 55}
+{"ts": 1757253330.5414517, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253330.5864587, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757253330.5864587, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 291}
+{"ts": 1757253331.4325068, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253331.4325068, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253331.4325068, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.4774754, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 44}
+{"ts": 1757253331.4774754, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.5204759, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757253331.5204759, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.5684736, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 47}
+{"ts": 1757253331.5684736, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.6124768, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 44}
+{"ts": 1757253331.6124768, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.656474, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757253331.656474, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.7075014, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757253331.7075014, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 274}
+{"ts": 1757253331.7075014, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253331.7534738, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 45}
+{"ts": 1757253331.7534738, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253331.7534738, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.8134775, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757253331.8134775, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.8544743, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 40}
+{"ts": 1757253331.8544743, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.9034736, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 48}
+{"ts": 1757253331.9034736, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.9424736, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 39}
+{"ts": 1757253331.9434738, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253331.9924748, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757253331.9924748, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253332.050478, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 58}
+{"ts": 1757253332.050478, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 297}
+{"ts": 1757253332.867644, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253332.8686454, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253332.8686454, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253332.9146476, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 46}
+{"ts": 1757253332.915222, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253332.957644, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757253332.9586458, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.005646, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 47}
+{"ts": 1757253333.005646, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.051644, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757253333.051644, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.1026444, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757253333.1026444, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.1566443, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 53}
+{"ts": 1757253333.1566443, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 287}
+{"ts": 1757253333.1566443, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253333.2236464, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 67}
+{"ts": 1757253333.2236464, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253333.2236464, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.2786453, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253333.2786453, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.3236444, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 44}
+{"ts": 1757253333.3236444, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.3746445, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757253333.3746445, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.4186444, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757253333.4186444, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.4726448, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253333.4726448, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253333.5246453, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 52}
+{"ts": 1757253333.5246453, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 300}
+{"ts": 1757253334.374644, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253334.374644, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253334.374644, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.4206452, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 46}
+{"ts": 1757253334.4206452, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.4636445, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757253334.4636445, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.5076442, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 43}
+{"ts": 1757253334.5086448, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.5576441, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 48}
+{"ts": 1757253334.5586455, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.6236472, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 65}
+{"ts": 1757253334.6236472, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.6806471, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 56}
+{"ts": 1757253334.6806471, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 306}
+{"ts": 1757253334.6806471, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253334.7336464, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 52}
+{"ts": 1757253334.7336464, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253334.7336464, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.7846446, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757253334.7846446, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.8286529, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 44}
+{"ts": 1757253334.8286529, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.878644, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757253334.878644, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.9336538, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 55}
+{"ts": 1757253334.9346473, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253334.9886436, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 53}
+{"ts": 1757253334.9886436, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253335.037645, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757253335.037645, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 303}
+{"ts": 1757253335.8658822, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253335.8658822, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253335.8658822, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253335.9348838, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 69}
+{"ts": 1757253335.9348838, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253335.9808817, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757253335.9808817, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.0349076, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253336.0359142, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.0819063, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 45}
+{"ts": 1757253336.0819063, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.1309114, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757253336.1309114, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.1909063, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 59}
+{"ts": 1757253336.1909063, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 325}
+{"ts": 1757253336.1909063, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253336.2428808, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 51}
+{"ts": 1757253336.2428808, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253336.2428808, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.2908845, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 48}
+{"ts": 1757253336.2908845, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.3578832, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 66}
+{"ts": 1757253336.3578832, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.4168813, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 58}
+{"ts": 1757253336.4168813, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.4668834, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757253336.4678867, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.519882, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757253336.519882, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253336.576882, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 56}
+{"ts": 1757253336.576882, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 334}
+{"ts": 1757253337.3879294, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253337.388925, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253337.388925, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.4409244, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757253337.4419274, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.4919238, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 49}
+{"ts": 1757253337.4919238, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.5459278, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253337.5469265, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.5969505, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757253337.5969505, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.6559267, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 58}
+{"ts": 1757253337.6559267, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.715926, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 59}
+{"ts": 1757253337.7169244, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 327}
+{"ts": 1757253337.7169244, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253337.7759244, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 59}
+{"ts": 1757253337.7759244, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253337.7759244, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.8339248, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 58}
+{"ts": 1757253337.8349278, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.884928, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757253337.884928, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253337.9459252, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757253337.9469252, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253338.0009277, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253338.0009277, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253338.0589266, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757253338.0589266, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253338.1189277, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757253338.1189277, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 343}
+{"ts": 1757253338.9771357, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253338.9771357, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253338.9781349, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.0311332, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 52}
+{"ts": 1757253339.0311332, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.0811608, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757253339.0811608, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.1331344, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 51}
+{"ts": 1757253339.1331344, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.1971607, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 64}
+{"ts": 1757253339.1971607, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.2541356, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 56}
+{"ts": 1757253339.2541356, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.3101342, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 55}
+{"ts": 1757253339.3101342, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 332}
+{"ts": 1757253339.3101342, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253339.3581595, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 48}
+{"ts": 1757253339.3581595, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253339.3581595, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.4131343, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253339.4131343, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.4701355, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757253339.4711342, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.5341349, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 63}
+{"ts": 1757253339.5341349, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.5971365, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 63}
+{"ts": 1757253339.5971365, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.658137, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 61}
+{"ts": 1757253339.658137, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253339.716134, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757253339.716134, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 357}
+{"ts": 1757253340.5401452, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253340.5401452, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253340.5411448, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253340.5951452, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253340.5951452, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253340.6491458, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 54}
+{"ts": 1757253340.65015, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253340.711144, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757253340.7121446, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253340.7711475, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 59}
+{"ts": 1757253340.7711475, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253340.8291442, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757253340.8291442, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253340.8871496, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 58}
+{"ts": 1757253340.8881493, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 348}
+{"ts": 1757253340.8881493, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253340.937145, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 48}
+{"ts": 1757253340.937145, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253340.937145, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253340.9941468, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757253340.9941468, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253341.045144, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 50}
+{"ts": 1757253341.045144, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253341.107145, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 62}
+{"ts": 1757253341.107145, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253341.1671438, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 59}
+{"ts": 1757253341.1671438, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253341.227145, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757253341.227145, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253341.2871466, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757253341.2871466, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 350}
+{"ts": 1757253342.1021452, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253342.1021452, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253342.1021452, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.1591482, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757253342.1591482, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.2191455, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 59}
+{"ts": 1757253342.2191455, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.2831445, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 63}
+{"ts": 1757253342.2831445, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.3419728, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 58}
+{"ts": 1757253342.3421469, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.408146, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 65}
+{"ts": 1757253342.408146, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.470147, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 62}
+{"ts": 1757253342.470147, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 368}
+{"ts": 1757253342.470147, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253342.5141454, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 43}
+{"ts": 1757253342.5141454, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253342.5141454, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.5891469, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 75}
+{"ts": 1757253342.5891469, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.6591496, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 70}
+{"ts": 1757253342.6591496, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.787146, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 127}
+{"ts": 1757253342.787146, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.872147, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 85}
+{"ts": 1757253342.872147, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253342.937145, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 64}
+{"ts": 1757253342.937145, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253343.0077696, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 70}
+{"ts": 1757253343.0081468, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 494}
+{"ts": 1757253343.850147, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253343.850147, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253343.850147, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253343.926148, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 76}
+{"ts": 1757253343.926148, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253343.9891453, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 62}
+{"ts": 1757253343.9901474, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.0571482, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 67}
+{"ts": 1757253344.0581474, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.1251488, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 68}
+{"ts": 1757253344.1251488, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.2141469, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 88}
+{"ts": 1757253344.2141469, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.2831447, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 68}
+{"ts": 1757253344.2831447, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 432}
+{"ts": 1757253344.2831447, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253344.3371463, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 54}
+{"ts": 1757253344.3371463, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253344.3371463, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.409147, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253344.409147, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.4701464, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757253344.4711475, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.5441442, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253344.545144, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.617145, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253344.617145, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.6971471, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 80}
+{"ts": 1757253344.6971471, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253344.7781444, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 80}
+{"ts": 1757253344.7781444, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 440}
+{"ts": 1757253345.6541455, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253345.6541455, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253345.6551452, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253345.734151, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 79}
+{"ts": 1757253345.734151, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253345.8201456, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 85}
+{"ts": 1757253345.8211484, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253345.9051492, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 84}
+{"ts": 1757253345.9051492, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253345.976147, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 70}
+{"ts": 1757253345.976147, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253346.0591476, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 83}
+{"ts": 1757253346.0591476, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253346.152146, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253346.152146, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 498}
+{"ts": 1757253346.152146, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253346.2091463, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 57}
+{"ts": 1757253346.2091463, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253346.2091463, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253346.2941482, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 85}
+{"ts": 1757253346.2941482, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253346.3931491, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 99}
+{"ts": 1757253346.3931491, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253346.4731462, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 79}
+{"ts": 1757253346.4731462, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253346.546149, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 73}
+{"ts": 1757253346.5471482, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253346.6301455, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 82}
+{"ts": 1757253346.6301455, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253346.7131474, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 83}
+{"ts": 1757253346.7131474, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 504}
+{"ts": 1757253347.573195, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253347.573195, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253347.573195, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253347.6561959, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 83}
+{"ts": 1757253347.6561959, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253347.7181942, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 61}
+{"ts": 1757253347.7181942, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253347.7882211, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 70}
+{"ts": 1757253347.7882211, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253347.8611968, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253347.8611968, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253347.9331963, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 71}
+{"ts": 1757253347.9331963, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253348.0021942, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 68}
+{"ts": 1757253348.0021942, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 428}
+{"ts": 1757253348.0021942, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253348.0542223, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 52}
+{"ts": 1757253348.0542223, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253348.0542223, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253348.1331956, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 78}
+{"ts": 1757253348.1331956, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253348.2121964, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 79}
+{"ts": 1757253348.2121964, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253348.2861948, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 73}
+{"ts": 1757253348.2861948, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253348.3571994, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 71}
+{"ts": 1757253348.3571994, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253348.4301956, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253348.4301956, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253348.5081975, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 78}
+{"ts": 1757253348.5091958, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 454}
+{"ts": 1757253349.3462152, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253349.3462152, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253349.3462152, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253349.4152145, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 68}
+{"ts": 1757253349.4162147, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253349.4842145, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 67}
+{"ts": 1757253349.4842145, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253349.5552173, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 71}
+{"ts": 1757253349.5552173, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253349.6352181, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 80}
+{"ts": 1757253349.6352181, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253349.718219, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 83}
+{"ts": 1757253349.718219, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253349.797215, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 78}
+{"ts": 1757253349.797215, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 450}
+{"ts": 1757253349.797215, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253349.8522153, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 55}
+{"ts": 1757253349.8522153, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253349.853216, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253349.9262178, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 73}
+{"ts": 1757253349.9262178, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253350.0042167, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757253350.0042167, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253350.0812194, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757253350.081413, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253350.1552186, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 73}
+{"ts": 1757253350.1552186, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253350.2352173, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 79}
+{"ts": 1757253350.2352173, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253350.3202157, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 84}
+{"ts": 1757253350.3202157, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 468}
+{"ts": 1757253351.1622198, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253351.1622198, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253351.163216, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.2362149, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253351.2362149, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.317217, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 81}
+{"ts": 1757253351.317217, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.4042196, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 87}
+{"ts": 1757253351.4052188, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.5072176, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 101}
+{"ts": 1757253351.5072176, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.5982156, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 90}
+{"ts": 1757253351.5982156, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.6752152, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 76}
+{"ts": 1757253351.6752152, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 512}
+{"ts": 1757253351.6752152, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253351.732216, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 57}
+{"ts": 1757253351.732216, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253351.732216, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.8142166, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 82}
+{"ts": 1757253351.815216, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.8852174, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 70}
+{"ts": 1757253351.8852174, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253351.958216, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253351.958216, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253352.0352182, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757253352.0352182, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253352.1082187, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 73}
+{"ts": 1757253352.109216, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253352.186218, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 75}
+{"ts": 1757253352.186218, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 454}
+{"ts": 1757253353.0112166, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253353.0112166, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253353.0112166, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.0932176, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 82}
+{"ts": 1757253353.0932176, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.1642187, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 71}
+{"ts": 1757253353.1652179, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.2432141, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757253353.2432141, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.3212152, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 78}
+{"ts": 1757253353.3212152, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.398221, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757253353.398221, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.477214, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 78}
+{"ts": 1757253353.477214, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 465}
+{"ts": 1757253353.477214, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253353.5322194, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 55}
+{"ts": 1757253353.5322194, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253353.5322194, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.6222162, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 89}
+{"ts": 1757253353.6222162, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.6952155, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253353.6962152, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.7772162, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 81}
+{"ts": 1757253353.7782152, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.849216, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 71}
+{"ts": 1757253353.849216, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253353.9282453, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 79}
+{"ts": 1757253353.9282453, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253354.0022144, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 73}
+{"ts": 1757253354.0022144, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 469}
+{"ts": 1757253354.8042157, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253354.8042157, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253354.8042157, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253354.887218, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 83}
+{"ts": 1757253354.887218, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253354.9722161, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 84}
+{"ts": 1757253354.9722161, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.052217, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 80}
+{"ts": 1757253355.052217, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.1242175, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 72}
+{"ts": 1757253355.1242175, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.2172163, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253355.2172163, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.3202178, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 103}
+{"ts": 1757253355.3202178, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 516}
+{"ts": 1757253355.3202178, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253355.3832173, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 62}
+{"ts": 1757253355.383713, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253355.383713, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.4712176, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 87}
+{"ts": 1757253355.4722214, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.5552175, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 82}
+{"ts": 1757253355.5552175, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.6542208, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 99}
+{"ts": 1757253355.6542208, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.7412162, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 86}
+{"ts": 1757253355.7412162, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.8242164, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 83}
+{"ts": 1757253355.8252175, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253355.9207404, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 95}
+{"ts": 1757253355.9217403, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 538}
+{"ts": 1757253356.75174, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253356.75174, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253356.75174, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253356.829739, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757253356.829739, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253356.902741, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 73}
+{"ts": 1757253356.902741, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253356.9897385, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 86}
+{"ts": 1757253356.9897385, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.06074, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 71}
+{"ts": 1757253357.0617397, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.1417384, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 79}
+{"ts": 1757253357.1417384, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.2207716, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 79}
+{"ts": 1757253357.2207716, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 469}
+{"ts": 1757253357.2207716, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253357.2737694, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 52}
+{"ts": 1757253357.2737694, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253357.2737694, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.3797407, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 105}
+{"ts": 1757253357.3797407, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.4737391, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253357.4737391, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.5537398, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 80}
+{"ts": 1757253357.5537398, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.6427412, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 89}
+{"ts": 1757253357.6427412, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.72778, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 85}
+{"ts": 1757253357.7287788, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253357.811754, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 82}
+{"ts": 1757253357.811754, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 537}
+{"ts": 1757253358.6479745, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253358.6489756, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253358.6489756, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253358.7369761, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 88}
+{"ts": 1757253358.7369761, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253358.816976, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 79}
+{"ts": 1757253358.816976, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253358.9059768, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 89}
+{"ts": 1757253358.9059768, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253358.9879782, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 82}
+{"ts": 1757253358.9879782, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253359.080975, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253359.080975, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253359.1609755, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 80}
+{"ts": 1757253359.1609755, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 511}
+{"ts": 1757253359.1609755, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253359.2129743, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 51}
+{"ts": 1757253359.2129743, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253359.213977, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253359.2999835, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 86}
+{"ts": 1757253359.2999835, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253359.3889763, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 88}
+{"ts": 1757253359.3889763, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253359.490976, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 101}
+{"ts": 1757253359.490976, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253359.5869756, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 95}
+{"ts": 1757253359.5869756, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253359.6959758, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253359.6959758, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253359.8059754, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253359.8059754, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 593}
+{"ts": 1757253360.6789765, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253360.6789765, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253360.6789765, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253360.7639759, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 84}
+{"ts": 1757253360.7639759, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253360.8470004, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 83}
+{"ts": 1757253360.8470004, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253360.9399762, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253360.9399762, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.0179744, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 77}
+{"ts": 1757253361.0179744, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.1089742, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 90}
+{"ts": 1757253361.1089742, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.202012, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253361.202012, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 523}
+{"ts": 1757253361.202012, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253361.2419746, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 39}
+{"ts": 1757253361.2419746, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253361.2419746, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.3299744, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 87}
+{"ts": 1757253361.330974, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.4139752, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 83}
+{"ts": 1757253361.4139752, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.500005, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 86}
+{"ts": 1757253361.500005, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.5910041, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 90}
+{"ts": 1757253361.5910041, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.6839747, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253361.6839747, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253361.7689748, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 85}
+{"ts": 1757253361.7689748, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 527}
+{"ts": 1757253362.6041188, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253362.6041188, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253362.6041188, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253362.698118, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253362.698118, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253362.784118, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 85}
+{"ts": 1757253362.7851176, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253362.8811185, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 96}
+{"ts": 1757253362.8811185, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253362.9731205, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253362.9731205, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253363.0641198, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 90}
+{"ts": 1757253363.0651197, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253363.1641185, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 98}
+{"ts": 1757253363.1641185, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 559}
+{"ts": 1757253363.16512, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253363.2251217, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 60}
+{"ts": 1757253363.2251217, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253363.2251217, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253363.3301237, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 105}
+{"ts": 1757253363.3301237, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253363.4371183, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 106}
+{"ts": 1757253363.4371183, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253363.560969, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 123}
+{"ts": 1757253363.560969, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253363.668497, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 107}
+{"ts": 1757253363.668497, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253363.7714963, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 102}
+{"ts": 1757253363.7714963, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253363.88149, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253363.88149, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 656}
+{"ts": 1757253364.7124908, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253364.7124908, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253364.7124908, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253364.801503, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 89}
+{"ts": 1757253364.801503, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253364.8945045, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253364.8945045, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253364.9875271, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253364.9875271, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253365.074506, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 86}
+{"ts": 1757253365.074506, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253365.1765044, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 101}
+{"ts": 1757253365.1765044, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253365.2695045, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253365.2695045, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 557}
+{"ts": 1757253365.2695045, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253365.3265061, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 57}
+{"ts": 1757253365.3265061, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253365.3265061, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253365.4535062, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 127}
+{"ts": 1757253365.4535062, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253365.5735035, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 119}
+{"ts": 1757253365.5735035, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253365.6829023, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253365.6829023, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253365.805899, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 122}
+{"ts": 1757253365.805899, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253365.9149013, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253365.9158988, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253366.0089023, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253366.0089023, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 682}
+{"ts": 1757253366.8278987, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253366.8278987, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253366.8278987, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253366.9188972, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 90}
+{"ts": 1757253366.9188972, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.0158966, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 96}
+{"ts": 1757253367.0158966, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.1099076, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 94}
+{"ts": 1757253367.1099076, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.1968975, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 86}
+{"ts": 1757253367.1968975, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.2888994, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253367.2888994, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.3828974, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253367.3828974, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 554}
+{"ts": 1757253367.3828974, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253367.4248984, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 42}
+{"ts": 1757253367.4248984, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253367.4248984, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.531952, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 107}
+{"ts": 1757253367.531952, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.6359673, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 104}
+{"ts": 1757253367.6359673, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.73796, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 101}
+{"ts": 1757253367.73796, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.835958, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 97}
+{"ts": 1757253367.835958, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253367.9369588, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 101}
+{"ts": 1757253367.9369588, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253368.0529613, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 116}
+{"ts": 1757253368.0529613, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 628}
+{"ts": 1757253368.9009583, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253368.9009583, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253368.9009583, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253368.9949644, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 94}
+{"ts": 1757253368.9959612, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.089959, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253369.089959, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.1909575, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 100}
+{"ts": 1757253369.1909575, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.2959895, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 105}
+{"ts": 1757253369.2969587, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.4139585, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 116}
+{"ts": 1757253369.4139585, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.5259595, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 112}
+{"ts": 1757253369.5259595, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 625}
+{"ts": 1757253369.5259595, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253369.5859587, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 59}
+{"ts": 1757253369.5859587, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253369.5859587, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.699969, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 114}
+{"ts": 1757253369.699969, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.80496, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 104}
+{"ts": 1757253369.80496, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.8999581, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 94}
+{"ts": 1757253369.8999581, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253369.9999585, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 100}
+{"ts": 1757253369.9999585, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253370.1069593, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 107}
+{"ts": 1757253370.1069593, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253370.216959, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253370.216959, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 631}
+{"ts": 1757253371.0601628, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253371.0601628, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253371.0601628, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.152163, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253371.1531649, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.2501633, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 96}
+{"ts": 1757253371.2501633, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.3431911, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 93}
+{"ts": 1757253371.3431911, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.4361637, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 92}
+{"ts": 1757253371.4361637, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.534165, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 98}
+{"ts": 1757253371.534165, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.6351912, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 101}
+{"ts": 1757253371.6351912, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 575}
+{"ts": 1757253371.6351912, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253371.6801631, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 44}
+{"ts": 1757253371.6801631, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253371.6801631, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.7781882, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 98}
+{"ts": 1757253371.7781882, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.8741627, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 95}
+{"ts": 1757253371.8741627, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253371.9771664, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 103}
+{"ts": 1757253371.9771664, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253372.0731902, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 96}
+{"ts": 1757253372.0731902, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253372.179164, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 105}
+{"ts": 1757253372.179164, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253372.2851667, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 106}
+{"ts": 1757253372.2851667, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 605}
+{"ts": 1757253373.1041648, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253373.1041648, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253373.1041648, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253373.2131906, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253373.2131906, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253373.3301642, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 116}
+{"ts": 1757253373.3301642, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253373.434192, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 104}
+{"ts": 1757253373.434192, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253373.5381641, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 103}
+{"ts": 1757253373.5381641, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253373.649164, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 110}
+{"ts": 1757253373.649164, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253373.7531664, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 104}
+{"ts": 1757253373.7531664, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 649}
+{"ts": 1757253373.7531664, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253373.8021643, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 48}
+{"ts": 1757253373.8021643, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253373.803163, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253373.8991919, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 96}
+{"ts": 1757253373.8991919, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253373.9941628, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 94}
+{"ts": 1757253373.9951637, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253374.0991635, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 103}
+{"ts": 1757253374.0991635, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253374.206166, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 107}
+{"ts": 1757253374.206166, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253374.3151655, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 108}
+{"ts": 1757253374.3151655, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253374.4601636, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 144}
+{"ts": 1757253374.4601636, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 657}
+{"ts": 1757253375.2851863, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253375.2851863, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253375.2851863, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253375.3921866, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 107}
+{"ts": 1757253375.3921866, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253375.50319, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 111}
+{"ts": 1757253375.50319, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253375.6171863, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 113}
+{"ts": 1757253375.6171863, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253375.7291875, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 112}
+{"ts": 1757253375.7291875, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253375.8491926, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 120}
+{"ts": 1757253375.8501933, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253375.9641955, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 114}
+{"ts": 1757253375.9651968, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 680}
+{"ts": 1757253375.9651968, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253376.0051932, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 39}
+{"ts": 1757253376.0051932, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253376.0061944, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253376.1061947, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 99}
+{"ts": 1757253376.1061947, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253376.2061946, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 99}
+{"ts": 1757253376.2061946, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253376.3201962, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 114}
+{"ts": 1757253376.3201962, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253376.4371955, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 116}
+{"ts": 1757253376.4371955, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253376.5571938, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 119}
+{"ts": 1757253376.5571938, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253376.6731963, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 116}
+{"ts": 1757253376.6731963, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 668}
+{"ts": 1757253377.5111957, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253377.5111957, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253377.5111957, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253377.6231952, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 111}
+{"ts": 1757253377.6231952, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253377.725193, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 101}
+{"ts": 1757253377.726193, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253377.8381937, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 112}
+{"ts": 1757253377.8381937, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253377.9481943, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 110}
+{"ts": 1757253377.9481943, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253378.0621953, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 114}
+{"ts": 1757253378.0621953, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253378.1801958, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 118}
+{"ts": 1757253378.1801958, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 669}
+{"ts": 1757253378.1801958, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253378.2371945, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 56}
+{"ts": 1757253378.2371945, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253378.2371945, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253378.3541996, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 117}
+{"ts": 1757253378.3551989, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253378.4701962, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 114}
+{"ts": 1757253378.4701962, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253378.5912223, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 121}
+{"ts": 1757253378.5921936, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253378.699193, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 106}
+{"ts": 1757253378.7001975, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253378.8142197, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 114}
+{"ts": 1757253378.8142197, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253378.924194, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253378.924194, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 686}
+{"ts": 1757253379.7251945, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253379.7251945, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253379.7261941, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253379.8451927, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 118}
+{"ts": 1757253379.846195, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253379.9512, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 105}
+{"ts": 1757253379.9512, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253380.0561957, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 104}
+{"ts": 1757253380.0561957, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253380.1621928, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 105}
+{"ts": 1757253380.1621928, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253380.2712033, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253380.2712033, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253380.3851938, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 113}
+{"ts": 1757253380.3851938, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 659}
+{"ts": 1757253380.3851938, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253380.4381955, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 53}
+{"ts": 1757253380.4381955, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253380.4381955, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253380.5651977, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 127}
+{"ts": 1757253380.5651977, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253380.6841972, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 118}
+{"ts": 1757253380.6841972, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253380.8011963, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 116}
+{"ts": 1757253380.8021965, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253380.9191966, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 117}
+{"ts": 1757253380.9191966, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253381.0331948, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 113}
+{"ts": 1757253381.0331948, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253381.1471975, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 114}
+{"ts": 1757253381.1471975, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 709}
+{"ts": 1757253381.9941964, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253381.9941964, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253381.995199, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253382.1251955, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 129}
+{"ts": 1757253382.1251955, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253382.2321925, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 106}
+{"ts": 1757253382.233195, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253382.3421934, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 108}
+{"ts": 1757253382.3421934, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253382.4461937, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 104}
+{"ts": 1757253382.4461937, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253382.5502155, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 104}
+{"ts": 1757253382.5511947, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253382.673196, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 122}
+{"ts": 1757253382.673196, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 678}
+{"ts": 1757253382.673196, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253382.7161922, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 42}
+{"ts": 1757253382.7161922, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253382.7171938, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253382.8331923, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 115}
+{"ts": 1757253382.8331923, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253382.9511976, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 118}
+{"ts": 1757253382.9521966, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253383.0711935, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 118}
+{"ts": 1757253383.0711935, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253383.2181947, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 147}
+{"ts": 1757253383.2181947, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253383.38122, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 163}
+{"ts": 1757253383.382196, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253383.509592, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 127}
+{"ts": 1757253383.509592, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 793}
+{"ts": 1757253384.3823912, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253384.3823912, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253384.3823912, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253384.5023909, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 119}
+{"ts": 1757253384.503418, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253384.627393, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 123}
+{"ts": 1757253384.627393, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253384.7443902, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 116}
+{"ts": 1757253384.7443902, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253384.859394, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 115}
+{"ts": 1757253384.859394, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253384.983398, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 124}
+{"ts": 1757253384.9843934, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253385.1063936, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 122}
+{"ts": 1757253385.1063936, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 724}
+{"ts": 1757253385.1063936, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253385.1683922, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 61}
+{"ts": 1757253385.1683922, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253385.1683922, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253385.2853916, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 116}
+{"ts": 1757253385.2863908, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253385.4083927, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 122}
+{"ts": 1757253385.4083927, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253385.5363903, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 127}
+{"ts": 1757253385.5363903, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253385.6583917, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 122}
+{"ts": 1757253385.6583917, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253385.7783911, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 119}
+{"ts": 1757253385.7793918, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253385.9013906, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 121}
+{"ts": 1757253385.9013906, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 732}
+{"ts": 1757253386.7327192, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253386.7327192, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253386.7327192, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253386.852747, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 120}
+{"ts": 1757253386.852747, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253386.9567199, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 103}
+{"ts": 1757253386.9567199, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253387.0677474, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 111}
+{"ts": 1757253387.0677474, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253387.1777198, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 109}
+{"ts": 1757253387.1777198, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253387.292721, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 115}
+{"ts": 1757253387.292721, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253387.4237204, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 130}
+{"ts": 1757253387.4237204, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 691}
+{"ts": 1757253387.4237204, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253387.4807203, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 56}
+{"ts": 1757253387.4807203, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253387.4807203, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253387.6297185, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 148}
+{"ts": 1757253387.6297185, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253387.7717223, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 142}
+{"ts": 1757253387.7717223, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253387.9527204, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 180}
+{"ts": 1757253387.9527204, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253388.1242416, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 171}
+{"ts": 1757253388.1242416, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253388.3022404, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 177}
+{"ts": 1757253388.3022404, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253388.483238, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 180}
+{"ts": 1757253388.483238, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 1002}
+{"ts": 1757253389.41024, "lvl": "INFO", "ev": "STEP_FCFS_HINT", "prodSeq": "3000000708", "sdSeq": "1", "seatType": "RS"}
+{"ts": 1757253389.41024, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253389.41024, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253389.5482385, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 137}
+{"ts": 1757253389.5482385, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253389.6892388, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 141}
+{"ts": 1757253389.6892388, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253389.8502386, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 160}
+{"ts": 1757253389.8512373, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253390.002239, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 151}
+{"ts": 1757253390.002239, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253390.158241, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 156}
+{"ts": 1757253390.158241, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253390.301242, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 143}
+{"ts": 1757253390.301242, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 891}
+{"ts": 1757253390.301242, "lvl": "INFO", "ev": "step.begin", "name": "ensure_qty_one"}
+{"ts": 1757253390.3622398, "lvl": "INFO", "ev": "step.end", "name": "ensure_qty_one", "ms": 60}
+{"ts": 1757253390.3622398, "lvl": "INFO", "ev": "step.begin", "name": "payment_hint_chain"}
+{"ts": 1757253390.3622398, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253390.4982386, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 135}
+{"ts": 1757253390.4982386, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253390.6372383, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 138}
+{"ts": 1757253390.6372383, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253390.771237, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 133}
+{"ts": 1757253390.7722368, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253390.8902636, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 118}
+{"ts": 1757253390.8902636, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253391.0092378, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 118}
+{"ts": 1757253391.0092378, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757253391.1252372, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 115}
+{"ts": 1757253391.1252372, "lvl": "INFO", "ev": "step.end", "name": "payment_hint_chain", "ms": 762}
+{"ts": 1757253391.9412932, "lvl": "INFO", "ev": "step.end", "name": "step_to_payment", "ms": 62090}

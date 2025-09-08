@@ -1,0 +1,20 @@
+{"t": "info", "msg": "DEBUG Using proactor: IocpProactor"}
+{"t": "info", "msg": "→ 로그인 시도: id=010******61, pw=********"}
+{"t": "info", "msg": "🔐 [포털(biff)] 로그인 화면입니다. 로그인만 완료하세요…"}
+{"t": "info", "msg": "✅ [포털(biff)] 로그인 감지."}
+{"t": "info", "msg": "✅ 로그인/세션 준비 완료."}
+{"t": "info", "msg": "🎬 [804] 액터스 하우스: 이병헌"}
+{"t": "info", "msg": "🎬 [002] 폐막식 + 부산 어워드 수상작 상영"}
+{"t": "info", "msg": "🎬 [001] [개막식 & 개막작] 어쩔수가없다"}
+{"t": "info", "msg": "🎬 [934] 취생몽사"}
+{"t": "error", "msg": "❌ [934] 에러: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for navigation to \"https://filmonestop\\.maketicket\\.co\\.kr/.*\" until 'load'\n============================================================"}
+{"t": "error", "msg": "❌ [804] 에러: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for navigation to \"https://filmonestop\\.maketicket\\.co\\.kr/.*\" until 'load'\n============================================================"}
+{"t": "error", "msg": "❌ [002] 에러: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for navigation to \"https://filmonestop\\.maketicket\\.co\\.kr/.*\" until 'load'\n============================================================"}
+{"t": "error", "msg": "❌ [001] 에러: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for navigation to \"https://filmonestop\\.maketicket\\.co\\.kr/.*\" until 'load'\n============================================================"}
+{"t": "info", "msg": "🎬 [554] 퐁네프의 연인들"}
+{"t": "error", "msg": "❌ [554] 에러: Page.goto: Target page, context or browser has been closed"}
+{"t": "info", "msg": "\n── 아티팩트 저장 위치 ───────────────────────"}
+{"t": "info", "msg": "  • 로그: C:\\Users\\HYEON\\projects\\BIFF\\runs\\20250907-211109\\bf.log"}
+{"t": "info", "msg": "  • 이벤트(JSONL): C:\\Users\\HYEON\\projects\\BIFF\\runs\\20250907-211109\\events.ndjson"}
+{"t": "info", "msg": "  • HAR: C:\\Users\\HYEON\\projects\\BIFF\\runs\\20250907-211109\\network.har"}
+{"t": "info", "msg": "  • Trace: C:\\Users\\HYEON\\projects\\BIFF\\runs\\20250907-211109\\trace.zip"}

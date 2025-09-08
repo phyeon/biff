@@ -1,0 +1,15 @@
+{
+  "tag": "좌석선택진입(prodUnlock)",
+  "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/prodUnlock",
+  "body": {
+    "prodSeq": 3000000707,
+    "chnlCd": "WEB",
+    "sdSeq": 1,
+    "perfDate": "20250917",
+    "timeStemp": ""
+  },
+  "status": 401,
+  "ok": false,
+  "json": {},
+  "text": "{}"
+}

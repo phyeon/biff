@@ -1,0 +1,24 @@
+2025-09-07 21:26:41,034.034 DEBUG Using proactor: IocpProactor
+2025-09-07 21:26:41,035.035 INFO DEBUG Using proactor: IocpProactor
+2025-09-07 21:26:43,550.550 INFO → 로그인 시도: id=010******61, pw=********
+2025-09-07 21:26:45,055.055 INFO 🔐 [포털(biff)] 로그인 화면입니다. 로그인만 완료하세요…
+2025-09-07 21:26:45,083.083 INFO ✅ [포털(biff)] 로그인 감지.
+2025-09-07 21:26:45,107.107 INFO ✅ 로그인/세션 준비 완료.
+2025-09-07 21:26:45,462.462 INFO 🎬 [001] [개막식 & 개막작] 어쩔수가없다
+2025-09-07 21:26:45,478.478 INFO 🎬 [002] 폐막식 + 부산 어워드 수상작 상영
+2025-09-07 21:26:45,481.481 INFO 🎬 [934] 취생몽사
+2025-09-07 21:26:45,484.484 INFO 🎬 [804] 액터스 하우스: 이병헌
+2025-09-07 21:27:03,838.838 ERROR ❌ [001] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+  navigated to "https://biff.maketicket.co.kr/ko/mypageLogin?sdCode=001"
+  navigated to "https://biff.maketicket.co.kr/ko/resMain?sdCode=001"
+============================================================
+2025-09-07 21:27:03,849.849 ERROR ❌ [002] 에러: Page.goto: Target page, context or browser has been closed
+2025-09-07 21:27:03,859.859 ERROR ❌ [934] 에러: Page.goto: Target page, context or browser has been closed
+2025-09-07 21:27:03,868.868 ERROR ❌ [804] 에러: Page.goto: Target page, context or browser has been closed
+2025-09-07 21:27:04,215.215 INFO 🎬 [554] 퐁네프의 연인들
+2025-09-07 21:27:06,902.902 ERROR ❌ [554] 에러: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "https://filmonestop\.maketicket\.co\.kr/.*" until 'load'
+============================================================

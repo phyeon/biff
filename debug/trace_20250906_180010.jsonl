@@ -1,0 +1,179 @@
+{"ts": 1757149218.691205, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149218.7042043, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149218.7172036, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149218.7232041, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149218.735204, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149218.7472067, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757149220.5911415, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757149220.5911415, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149220.6001399, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757149220.6001399, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757149220.61314, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757149220.61314, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149220.6211414, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757149220.6211414, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757149220.6611397, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149220.6611397, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.6611397, "lvl": "ERR", "ev": "step.error", "name": "load_all_schedules", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.6611397, "lvl": "ERR", "ev": "step.error", "name": "seat_counts_by_codes_v4", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.673141, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 1937}
+{"ts": 1757149220.705143, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757149220.7381437, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/cancelfee", "body": ""}
+{"ts": 1757149220.7691398, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/cancelfee"}
+{"ts": 1757149220.7691398, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/delivery", "body": ""}
+{"ts": 1757149220.7691398, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 63}
+{"ts": 1757149220.8751407, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149220.8751407, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.8751407, "lvl": "ERR", "ev": "step.error", "name": "load_all_schedules", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.8751407, "lvl": "ERR", "ev": "step.error", "name": "seat_counts_by_codes_v4", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.8871427, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2139}
+{"ts": 1757149220.902143, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/delivery"}
+{"ts": 1757149220.902143, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bul_location.png", "body": ""}
+{"ts": 1757149220.903143, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bul_location.png"}
+{"ts": 1757149220.903143, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common/smartixLoadign.webp", "body": ""}
+{"ts": 1757149220.903143, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757149220.9041438, "lvl": "INFO", "ev": "wire.req", "method": "GET", "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_radio.png", "body": ""}
+{"ts": 1757149220.9041438, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleCupnByPay", "body": ""}
+{"ts": 1757149220.9041438, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay", "body": ""}
+{"ts": 1757149220.9051406, "lvl": "INFO", "ev": "console", "typ": "log", "text": "payAmout : 10,000"}
+{"ts": 1757149220.9051406, "lvl": "INFO", "ev": "console", "typ": "verbose", "text": "[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"}
+{"ts": 1757149220.9051406, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common//bg_radio.png"}
+{"ts": 1757149220.9051406, "lvl": "INFO", "ev": "wire.res", "status": 304, "url": "https://cdn.maketicket.co.kr/tbox/pc/tonestop/images/common/smartixLoadign.webp"}
+{"ts": 1757149220.9101408, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757149220.9221406, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleCupnByPay"}
+{"ts": 1757149220.930142, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay"}
+{"ts": 1757149220.9331417, "lvl": "INFO", "ev": "wire.res", "status": 200, "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/listSaleAdvtkByPay"}
+{"ts": 1757149220.949141, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149220.9541395, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 4}
+{"ts": 1757149220.9591398, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757149220.96314, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149220.96314, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.96314, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149220.96314, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.964142, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149220.964142, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.964142, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149220.964142, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.964142, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149220.964142, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.964142, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149220.964142, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149220.964142, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757149221.0071504, "lvl": "INFO", "ev": "console", "typ": "log", "text": "MOBILE"}
+{"ts": 1757149221.0606039, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 96}
+{"ts": 1757149221.0606039, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757149221.0646055, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149221.0646055, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149221.0646055, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149225.718608, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149220650&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5136", "body": ""}
+{"ts": 1757149225.7386036, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149220674&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5133", "body": ""}
+{"ts": 1757149225.8156037, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149220650&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5136"}
+{"ts": 1757149225.8156037, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149220650&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000779%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000779&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5136", "failure": "net::ERR_ABORTED"}
+{"ts": 1757149225.8336043, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149220674&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5133"}
+{"ts": 1757149225.8336043, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513z89225469083za200zb9225469083zd9225469083&_p=1757149220674&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1036x646&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fpayment%3FprodSeq%3D3000000933%26chk%3D&dr=https%3A%2F%2Ffilmonestop.maketicket.co.kr%2Fprice%3FprodSeq%3D3000000933&dt=%EA%B3%B5%EC%97%B0%ED%8B%B0%EC%BC%93%20-%20%EC%98%88%EB%A7%A4&en=page_view&tfd=5133", "failure": "net::ERR_ABORTED"}
+{"ts": 1757149225.933604, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5023}
+{"ts": 1757149225.9706047, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149225.975604, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 4}
+{"ts": 1757149225.9836042, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149225.9836042, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149225.9836042, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149225.9836042, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149225.9846036, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149225.9846036, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149225.9846036, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149225.9846036, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149225.9846036, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149225.9846036, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149225.9846036, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149225.9846036, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149225.9846036, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757149226.068605, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 84}
+{"ts": 1757149226.068605, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757149226.0716045, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149226.0716045, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149226.0716045, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149249.134016, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 30429}
+{"ts": 1757149250.3762486, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31685}
+{"ts": 1757149250.3882437, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31671}
+{"ts": 1757149250.4002435, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 31677}
+{"ts": 1757149254.8355854, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757149255.3895853, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757149255.452586, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757149256.1437032, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149251065&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480709&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=2&tfd=5113", "body": ""}
+{"ts": 1757149256.2407017, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149251065&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480709&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=2&tfd=5113"}
+{"ts": 1757149256.2407017, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149251065&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480709&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=2&tfd=5113", "failure": "net::ERR_ABORTED"}
+{"ts": 1757149257.8731356, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149252795&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5125", "body": ""}
+{"ts": 1757149257.9511414, "lvl": "INFO", "ev": "wire.req", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149252859&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=2&tfd=5122", "body": ""}
+{"ts": 1757149257.9731548, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149252795&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5125"}
+{"ts": 1757149257.9731548, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149252795&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5125", "failure": "net::ERR_ABORTED"}
+{"ts": 1757149258.0471473, "lvl": "INFO", "ev": "wire.res", "status": 204, "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149252859&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=2&tfd=5122"}
+{"ts": 1757149258.0481472, "lvl": "WARN", "ev": "wire.fail", "method": "POST", "url": "https://analytics.google.com/g/collect?v=2&tid=G-DKVGW12YFX&gtm=45je5931v9225473513za200zb9225469083zd9225469083&_p=1757149252859&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1867305178.1757149213&ul=ko-kr&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B99.0.0.0%7CGoogle%2520Chrome%3B139.0.7258.155%7CChromium%3B139.0.7258.155&uamb=0&uam=&uap=Windows&uapv=10.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709&sid=1757149213&sct=1&seg=1&dl=https%3A%2F%2Fbiff.maketicket.co.kr%2Fko%2FresMain&dr=https%3A%2F%2Fbiff.maketicket.co.kr%2Fmypage%2Ftickets%2Flist&dt=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&en=scroll&epn.percent_scrolled=90&_et=2&tfd=5122", "failure": "net::ERR_ABORTED"}
+{"ts": 1757149259.8421462, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5006}
+{"ts": 1757149259.8771455, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149259.9021463, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 25}
+{"ts": 1757149259.9101467, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149259.9101467, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149259.9101467, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149259.9101467, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149259.9101467, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149259.9101467, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149259.9101467, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149259.9101467, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149259.9101467, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149259.9101467, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149259.9101467, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149259.9101467, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149259.9111464, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757149260.0261443, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 114}
+{"ts": 1757149260.0261443, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757149260.0261443, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.0261443, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.0261443, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.0261443, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.0261443, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.4111466, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5021}
+{"ts": 1757149260.4561467, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5003}
+{"ts": 1757149260.4581463, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149260.4931452, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 34}
+{"ts": 1757149260.4991474, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757149260.5051472, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5051472, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5061462, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5061462, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5061462, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5061462, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5061462, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5061462, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5061462, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5061462, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5061462, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5061462, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5061462, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757149260.572146, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 72}
+{"ts": 1757149260.5831475, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5831475, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5831475, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5831475, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5841486, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5841486, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5841486, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5841486, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5841486, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5841486, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5841486, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.5841486, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.5841486, "lvl": "INFO", "ev": "step.begin", "name": "ensure_onestop_cookies"}
+{"ts": 1757149260.6541467, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 148}
+{"ts": 1757149260.6541467, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757149260.6541467, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.6541467, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.6541467, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.6541467, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.6541467, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.6981468, "lvl": "INFO", "ev": "step.end", "name": "ensure_onestop_cookies", "ms": 113}
+{"ts": 1757149260.6991477, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757149260.6991477, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.6991477, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.6991477, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757149260.6991477, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}
+{"ts": 1757149260.6991477, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "fetch_json() got an unexpected keyword argument 'timeout_ms'"}

@@ -1,0 +1,40 @@
+{"ts": 1757300434.0153906, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757300434.0343895, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757300434.0503895, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757300434.065389, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757300434.0823915, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757300434.1013896, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757300435.823393, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757300435.8243945, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757300435.8443894, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 19}
+{"ts": 1757300435.8443894, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757300435.9739764, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757300436.0858347, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 111}
+{"ts": 1757300436.0858347, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 241}
+{"ts": 1757300436.0858347, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 262}
+{"ts": 1757300436.115835, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2033}
+{"ts": 1757300436.1518373, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757300436.1518373, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757300436.1588364, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757300436.2908354, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 138}
+{"ts": 1757300436.2908354, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757300436.3461907, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757300436.375191, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 29}
+{"ts": 1757300436.375191, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 84}
+{"ts": 1757300436.375191, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 223}
+{"ts": 1757300436.40419, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2338}
+{"ts": 1757300436.44172, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757300439.8102324, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757300439.8102324, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757300439.9542549, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "Page.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757300439.9542549, "lvl": "ERR", "ev": "step.error", "name": "seat_counts_by_codes_v4", "err": "Page.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757300439.9927669, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 5958}
+{"ts": 1757300440.5052748, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757300440.509275, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757300440.5102756, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757300441.158165, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 4999}
+{"ts": 1757300441.1871648, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757300441.200173, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "Page.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757300441.4437814, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5002}
+{"ts": 1757300441.4737816, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757300441.4867816, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "Page.wait_for_timeout: Target page, context or browser has been closed"}

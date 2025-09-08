@@ -1,0 +1,34 @@
+{
+  "tag": "수량확정(NRS)",
+  "url": "https://filmonestopapi.maketicket.co.kr/api/v1/rs/pricelimit",
+  "body": {
+    "prodSeq": 3000000707,
+    "chnlCd": "WEB",
+    "perfTyCd": "",
+    "perfDate": "20250917",
+    "sdSeq": 1,
+    "sdCode": "001",
+    "saleTycd": "SALE_NORMAL",
+    "sdSeqOld": 1,
+    "saleTycdOld": "SALE_NORMAL",
+    "saleCondNo": 1,
+    "timeStemp": "",
+    "prodTyCd": "NORMAL",
+    "planTypeCd": "NRS",
+    "seatTypeCode": "NRS",
+    "jType": "I",
+    "rsrvStep": "TKT",
+    "langCd": "ko",
+    "tkttypSeq": 1,
+    "rsVolume": 1,
+    "selectedTicketCount": 1
+  },
+  "status": 200,
+  "ok": true,
+  "json": {
+    "resultCode": "0003",
+    "resultMessage": "판매가능한 상품이 아닙니다.",
+    "resultGlobalCode": "10118"
+  },
+  "text": "{\"resultCode\":\"0003\",\"resultMessage\":\"판매가능한 상품이 아닙니다.\",\"resultGlobalCode\":\"10118\"}"
+}

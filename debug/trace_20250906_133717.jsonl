@@ -1,0 +1,196 @@
+{"ts": 1757133447.5863442, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133447.6693435, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133447.6803463, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133447.732864, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133447.7588642, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133447.767374, "lvl": "INFO", "ev": "step.begin", "name": "open_booking_from_resmain"}
+{"ts": 1757133449.5891318, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757133449.5891318, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.592131, "lvl": "INFO", "ev": "step.begin", "name": "seat_counts_by_codes_v4"}
+{"ts": 1757133449.592131, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.5991292, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133449.5991292, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757133449.60213, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133449.60213, "lvl": "INFO", "ev": "step.begin", "name": "load_all_schedules"}
+{"ts": 1757133449.6291306, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.6311295, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.6391315, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133449.6391315, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133449.6391315, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.6411304, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133449.6411304, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133449.6411304, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.6521451, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757133449.656147, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 17}
+{"ts": 1757133449.656147, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133449.656147, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.6641452, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133449.7314708, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 90}
+{"ts": 1757133449.7919488, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 401 — <!DOCTYPE html> <html> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),…"}
+{"ts": 1757133449.7919488, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133449.7919488, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.8649523, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 223}
+{"ts": 1757133449.8649523, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133449.8649523, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.8789504, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 13}
+{"ts": 1757133449.9099498, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 118}
+{"ts": 1757133449.9149492, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 401 — <!DOCTYPE html> <html> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),…"}
+{"ts": 1757133449.9149492, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133449.9149492, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133449.9219491, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133449.9998033, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 207}
+{"ts": 1757133449.9998033, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 397}
+{"ts": 1757133449.9998033, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757133449.9998033, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.005804, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133450.005804, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.005804, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.0148041, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133450.0168045, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 101}
+{"ts": 1757133450.0168045, "lvl": "INFO", "ev": "step.end", "name": "load_all_schedules", "ms": 417}
+{"ts": 1757133450.0168045, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757133450.0168045, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.019804, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 13}
+{"ts": 1757133450.019804, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.019804, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.0268047, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133450.0268047, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.0268047, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.0288045, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133450.0358038, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133450.0388038, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757133450.0388038, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.0388038, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.0468042, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133450.0618043, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 401 — <!DOCTYPE html> <html> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),…"}
+{"ts": 1757133450.062805, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.062805, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.0688035, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 5}
+{"ts": 1757133450.1048076, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 401 — <!DOCTYPE html> <html> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),…"}
+{"ts": 1757133450.1058042, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.1058042, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.1138048, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133450.1206312, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 57}
+{"ts": 1757133450.1206312, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.1276352, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.1276352, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.1276352, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.1356306, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.139631, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757133450.139631, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.139631, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.1466932, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.1666918, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 60}
+{"ts": 1757133450.1666918, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.172694, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133450.172694, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.172694, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.1836917, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133450.185691, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 401 — <!DOCTYPE html> <html> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),…"}
+{"ts": 1757133450.185691, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.185691, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.1886916, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757133450.1886916, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.1886916, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.1956923, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133450.198692, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133450.2296915, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 401 — <!DOCTYPE html> <html> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),…"}
+{"ts": 1757133450.2296915, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.2296915, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.2366915, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133450.2446947, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 59}
+{"ts": 1757133450.2446947, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.2516923, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133450.2516923, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.2516923, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.2596917, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.2626915, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757133450.2626915, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.2626915, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.2696912, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133450.3056931, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 401 — <!DOCTYPE html> <html> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),…"}
+{"ts": 1757133450.3056931, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.3056931, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.3136911, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.3237176, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 94}
+{"ts": 1757133450.3237176, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.3316936, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.3316936, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.3316936, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.3396916, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.3436933, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 11}
+{"ts": 1757133450.3436933, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.3436933, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.3506916, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 6}
+{"ts": 1757133450.3736916, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 67}
+{"ts": 1757133450.3736916, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 373}
+{"ts": 1757133450.3736916, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757133450.3736916, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.383691, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 9}
+{"ts": 1757133450.383691, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.383691, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.3856912, "lvl": "ERR", "ev": "step.error", "name": "fetch_json", "err": "fallback HTTP 401 — <!DOCTYPE html> <html> <head> <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),…"}
+{"ts": 1757133450.3866916, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.3866916, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.3946931, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 11}
+{"ts": 1757133450.3966918, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133450.3986917, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757133450.3986917, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.3986917, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.4066918, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133450.4456913, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 58}
+{"ts": 1757133450.446692, "lvl": "INFO", "ev": "step.end", "name": "swap_session_to_sdseq", "ms": 429}
+{"ts": 1757133450.446692, "lvl": "INFO", "ev": "step.begin", "name": "fetch_seat_status_list"}
+{"ts": 1757133450.446692, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.4536939, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.4536939, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.4536939, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.4596937, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 5}
+{"ts": 1757133450.4636922, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 9}
+{"ts": 1757133450.4636922, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.4636922, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.4726915, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133450.474691, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 75}
+{"ts": 1757133450.474691, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.4826918, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133450.4826918, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.4826918, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.489692, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 7}
+{"ts": 1757133450.4926925, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 10}
+{"ts": 1757133450.4926925, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.4926925, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.5036924, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133450.506692, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 42}
+{"ts": 1757133450.506692, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.5156908, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 8}
+{"ts": 1757133450.5156908, "lvl": "INFO", "ev": "step.begin", "name": "api_bases"}
+{"ts": 1757133450.5156908, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.5256917, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 10}
+{"ts": 1757133450.530693, "lvl": "INFO", "ev": "step.end", "name": "api_bases", "ms": 15}
+{"ts": 1757133450.530693, "lvl": "INFO", "ev": "step.begin", "name": "fetch_json"}
+{"ts": 1757133450.530693, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133450.5326927, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 40}
+{"ts": 1757133450.5326927, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 159}
+{"ts": 1757133450.5326927, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 940}
+{"ts": 1757133450.5436919, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2874}
+{"ts": 1757133450.558694, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757133450.559693, "lvl": "INFO", "ev": "step.end", "name": "ensure_filmonestop_scope", "ms": 29}
+{"ts": 1757133450.587691, "lvl": "INFO", "ev": "step.end", "name": "fetch_json", "ms": 56}
+{"ts": 1757133450.587691, "lvl": "INFO", "ev": "step.end", "name": "fetch_seat_status_list", "ms": 140}
+{"ts": 1757133450.587691, "lvl": "INFO", "ev": "step.end", "name": "seat_counts_by_codes_v4", "ms": 998}
+{"ts": 1757133450.5976908, "lvl": "INFO", "ev": "step.end", "name": "open_booking_from_resmain", "ms": 2838}
+{"ts": 1757133450.610692, "lvl": "INFO", "ev": "step.begin", "name": "wait_params_from_network"}
+{"ts": 1757133454.223462, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757133454.2394624, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757133454.245462, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757133454.245462, "lvl": "ERR", "ev": "step.error", "name": "open_booking_from_resmain", "err": "Locator.count: Target page, context or browser has been closed"}
+{"ts": 1757133455.584278, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 5025}
+{"ts": 1757133455.5932772, "lvl": "INFO", "ev": "step.end", "name": "wait_params_from_network", "ms": 4982}
+{"ts": 1757133455.605279, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757133455.605279, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133455.6162806, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "Frame.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757133455.6162806, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "Frame.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757133455.6172795, "lvl": "INFO", "ev": "step.begin", "name": "swap_session_to_sdseq"}
+{"ts": 1757133455.6172795, "lvl": "INFO", "ev": "step.begin", "name": "ensure_filmonestop_scope"}
+{"ts": 1757133455.6222792, "lvl": "ERR", "ev": "step.error", "name": "ensure_filmonestop_scope", "err": "Frame.wait_for_timeout: Target page, context or browser has been closed"}
+{"ts": 1757133455.6232796, "lvl": "ERR", "ev": "step.error", "name": "swap_session_to_sdseq", "err": "Frame.wait_for_timeout: Target page, context or browser has been closed"}
